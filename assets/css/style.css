@@ -119,7 +119,7 @@ path {
   -webkit-transition:color .2s ease-in;
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 460px) {
   #des {
     float: none;
     margin-right: 0;
