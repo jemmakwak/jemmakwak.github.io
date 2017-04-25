@@ -118,13 +118,22 @@ path {
   color: #221F28;
   -webkit-transition:color .2s ease-in;
 }
+
+@media screen and (max-width: 200px) {
+  #des {
+    float: none;
+    margin-right: 0;
+    width: auto;
+    border: 0;
+    border-bottom: 2px solid;
+  }
+}
 /*Work Grid*/
 
 .img-container {
-  max-width: 100%;
   margin: 0 auto;
   margin: 8px 15px 15px 8px;
-  width: 350px;
+  width: 360px;
   display: inline-block;
   cursor: pointer;
   position: relative;
@@ -139,7 +148,7 @@ path {
   border: solid;
   text-align: center;
   margin: 0 auto;
-  width: 70%;
+  width: 800px;
   min-width: 350px;
 }
 
@@ -240,6 +249,7 @@ path {
   width: 100%;
   height: 30px;
   margin: 0 auto;
+  margin-bottom: 40px;
   text-align: center;
   border-style: solid;
 }
