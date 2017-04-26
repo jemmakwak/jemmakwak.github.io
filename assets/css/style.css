@@ -1,12 +1,10 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 
 
 h1 {
-  border-bottom-style: solid;
-  border-bottom: 3px;
   font-size: 50px;
   text-align: center;
   letter-spacing: 15px;
