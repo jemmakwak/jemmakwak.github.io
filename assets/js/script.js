@@ -27,4 +27,13 @@ $(document).ready(function(){
     $(this).css("color", "#95A5A6");
     $(this).css("-webkit-transition:color", ".2s ease-out")
   });
-});
+
+  $("#face-container").hover(function(){
+    if ($('#face-container').hasClass('blur')) {
+      $('.blur').removeClass('blur');
+    }
+    else {
+      $('#face-container').addClass('blur');
+    }
+      });
+  });
