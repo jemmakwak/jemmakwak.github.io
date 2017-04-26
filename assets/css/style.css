@@ -1,10 +1,12 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
 
 
 h1 {
+  border-bottom-style: solid;
+  border-bottom: 3px;
   font-size: 50px;
   text-align: center;
   letter-spacing: 15px;
@@ -48,12 +50,12 @@ h4 {
 
 .section {
   height: 600px;
-  float: left;
+  /*float: left;*/
 }
 
-.project-section {
-  height: 102vh;
-  width: 100%;
+.projects-section {
+  float: none;
+  margin: 0 auto;
 }
 
 #name-container {
@@ -118,10 +120,10 @@ path {
   border-bottom-color: #F5D76E;
 }
 
-.menu-item:hover {
+/*.menu-item:hover {
   color: #221F28;
   -webkit-transition:color .2s ease-in;
-}
+}*/
 
 /*Work Grid*/
 
@@ -294,6 +296,7 @@ path {
   }
 
   h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 25pt;
   }
 
