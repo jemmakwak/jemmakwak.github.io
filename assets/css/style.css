@@ -3,7 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+
 h1 {
+  border-bottom-style: solid;
+  border-bottom: 3px;
   font-size: 50px;
   text-align: center;
   letter-spacing: 15px;
@@ -32,7 +35,7 @@ h4 {
   line-height: 25px
 }
 
-#des a {
+#des a, .exp-cont a {
   text-decoration: none;
   color: #F5D76E;
   background-size: 202% 100%;
@@ -40,7 +43,7 @@ h4 {
   transition: .3s;
 }
 
-#des a:hover{
+#des a:hover, a:hover {
   background-position: -99% 0;
   color: white;
 }
@@ -131,7 +134,6 @@ path {
   display: inline-block;
   cursor: pointer;
   position: relative;
-  border: solid;
 }
 
 .img-container img {
@@ -139,7 +141,6 @@ path {
 }
 
 #projects-container {
-  border: solid;
   text-align: center;
   margin: 0 auto;
   width: 800px;
@@ -153,6 +154,7 @@ path {
   color: white;
   font-size: 1.5em;
   position: absolute;
+  width: 60%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -175,7 +177,6 @@ path {
 /*Experience*/
 
 #experience-container {
-  border: solid;
   text-align: left;
   margin: 0 auto;
   width: 70%;
@@ -185,12 +186,10 @@ path {
 
 
 .experience img{
-  border: solid;
   width: 130px;
 }
 
 .exp-cont {
-  border: dashed;
   /*text-align: center;*/
   padding: 20px 0px 20px 0px;
   margin: 0 auto;
@@ -198,14 +197,12 @@ path {
 }
 
 .experience {
-  border: solid;
   position: relative;
   float: left;
   margin: 10px 25px 0px 0px;
 }
 
 .exp-desc {
-  border: dashed;
   line-height: 27px;
   width: 80%;
   position: relative;
@@ -243,7 +240,6 @@ path {
   margin: 0 auto;
   margin-bottom: 40px;
   text-align: center;
-  border-style: solid;
 }
 
 #email {
@@ -254,13 +250,23 @@ path {
 /*Responsive Implementations*/
 
 @media screen and (max-width: 460px) {
+
+  #name-container {
+    margin-top: 10%;
+    margin-left: 10%;
+    position: static;
+    text-align: center;
+    float: none;
+    width: 300px;
+    min-width: 300px;
+  }
+
   #des {
     float: none;
     width: 100%;
-    border: solid;
     /*text-align: center;*/
-    margin-right: 0;
-    position: static;
+    margin: 0 auto;
+    position: relative;
     float: right;
     margin-top: 0%;
     min-width: 100%;
@@ -271,7 +277,6 @@ path {
   }
 
   #projects-container {
-    border: dashed;
     text-align: center;
     margin: 0 auto;
     width: 90%;
@@ -279,12 +284,11 @@ path {
 
   .img-container {
     margin: 0 auto;
-    padding: 15px;
-    width: 260px;
+    margin: 15px;
+    width: 300px;
     display: inline-block;
     cursor: pointer;
     position: relative;
-    border: solid;
   }
 
   .img-container img {
@@ -292,6 +296,43 @@ path {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 25pt;
   }
+
+  #experience-container {
+    text-align: left;
+    margin: 0 auto;
+    /*width: 60%;*/
+    line-height: 15pt;
+    min-width: 330px;
+  }
+
+  .experience {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+  }
+
+  .exp-cont {
+    /*text-align: center;*/
+    padding: 0px;
+    margin: 0 auto;
+    /*height: 45%;*/
+    }
+
+  h3, h4, #email {
+    text-align: center;
+  }
+  #email-container {
+    width: 80%;
+  }
+
+  #email {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
 }

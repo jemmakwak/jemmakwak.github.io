@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<!-- <div id = "overlay"> -->
 
 	<!-- Intro Page -->
 	<section class = "section">
@@ -36,10 +37,10 @@
 
 				<!-- Menu  -->
 				<div id="menu-container">
-					<div class="menu-item">home</div>
-					<div class="menu-item">design</div>
-					<div class="menu-item">exp</div>
-					<div class="menu-item">contact</div>
+					<!-- <div class="menu-item">home</div> -->
+					<div class="menu-item design">design</div>
+					<div class="menu-item exp">exp</div>
+					<div class="menu-item contact">contact</div>
 				</div>
 		</div>
 	</section>
@@ -50,22 +51,24 @@
 
 	<section class = "projects-section">
 
-		<h1> DESIGN </h1>
+		<div class = "header">
+			<h1> DESIGN </h1>
+		</div>
 		<!-- START WORK GRID HERE -->
 		<div id = "projects-container">
 			<!-- EthiCAL -->
 			<div class="img-container">
-				<img src="assets/img/grade3.png" alt="Some image">
+				<img class = "picture" src="assets/img/grade3.png">
 				<div class="pic-overlay">
 					<div class="work-text">
-							Ethical Apparel
+							Graphic Design
 					</div>
 				</div>
 			</div>
 
 			<!-- Human Centered Design -->
 			<div class="img-container">
-				<img src="assets/img/grade3.png" alt="Some image">
+				<img class = "picture" src="assets/img/decal.png">
 				<div class="pic-overlay">
 					<div class="work-text">
 							Human Centered Design
@@ -75,22 +78,22 @@
 
 			<!-- Graphic Design -->
 
-			<div class="img-container ethical">
-				<img src="assets/img/grade3.png" alt="Some image">
+			<div class="img-container">
+				<img class = "picture" src="assets/img/scheme.png">
 				<div class="pic-overlay">
 					<div class="work-text">
-							Graphic Design
+							Scheme Interpreter
 					</div>
 				</div>
 			</div>
 
 		<!-- Tech GYRLS -->
 
-		<div class="img-container ethical">
-			<img src="assets/img/grade3.png" alt="Some image">
+		<div class="img-container">
+			<img src="assets/img/personal.png">
 			<div class="pic-overlay">
 				<div class="work-text">
-						TechGYRLS
+						Personal Website
 				</div>
 			</div>
 		</div>
@@ -99,7 +102,9 @@
 
 	<!-- Section 2.1: Experience -->
 	<section class = "section">
-		<h1>EXPERIENCE</h1>
+		<div class = "header">
+			<h1> EXPERIENCE </h1>
+		</div>
 		<div id = "experience-container">
 			<div class = "exp-cont">
 				<div class = "experience">
@@ -108,10 +113,10 @@
 				<h3>Warner Bros.Inc</h3>
 				<h4><em>June 2016 - August 2016</em></h4>
 				<p class = "exp-des">
-					Last summer, I worked as a REACH Intern for Warner Bros. Technology Solutions Department.
+					Last summer, I worked as a <a href = "http://www.wbcitizenship.com/reach-honorship-recipients-2016/">REACH Intern</a> for the Warner Bros. Technology Solutions Department.
 					I worked with both front-end engineers to redesign an internal website while learning
-					the ins and outs of my department. I also spent someshadowed professionals in the
-					industry
+					the ins and outs of my department. I also spent some time shadowing professionals in departments
+					such as Ellen Digital, Telepictures, and Post-Production.
 				</p>
 			</div>
 
@@ -122,10 +127,8 @@
 				<h3>YWCA TechGYRLS</h3>
 				<h4><em>September 2016 - December 2016</em></h4>
 				<p class = "exp-des">
-					Bacon ipsum dolor amet hamburger landjaeger short loin bresaola strip steak beef ribs venison.
-					Biltong pig bacon beef ribs swine turducken flank corned beef jowl chicken burgdoggen short ribs.
-					Bacon ipsum dolor amet hamburger landjaeger short loin bresaola strip steak beef ribs venison.
-					Biltong pig bacon beef ribs swine turducken flank corned beef jowl chicken burgdoggen short ribs
+					Helped prepare and facilitate weekly STEM lessons and activities for Oakland
+					elementary schoolers. Served as a mentor and teacher to students while engaging them in fun science and engineering projects.
 				</p>
 			</div>
 		</div>
@@ -163,6 +166,8 @@
 		</div>
 
 	</section>
+
+<!-- </div> -->
 
 </body>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
