@@ -42,6 +42,6 @@ html {
     min-height: 100%;
 }
 
-/*.test {
-  color: black;
-}*/
+img {
+  width: 300px;
+}
