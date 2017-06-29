@@ -30,8 +30,6 @@ a:hover {
   color: #323335;
   font-family: 'Hammersmith One', sans-serif;
   position: absolute;
-  left: 0;
-  bottom: 0;
   height: 100px;
   width: 100%;
   overflow:hidden;
@@ -44,4 +42,16 @@ html {
 
 img {
   width: 300px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 460px) {
+    #main {
+      font-size: 25pt
+    }
+    
+    img {
+      width: 55%;
+    }
 }
