@@ -1,400 +1,57 @@
-
-/* =================================================== NAV BAR =================================================== */
-
-#top {
-	padding-bottom: 50px;
-	font-family: 'Open Sans', sans-serif;
-	padding-top: 15px;
-	width: 100%;
-	height: 50px;
+body {
+  text-align: center;
+  background-color: #E5DFD5;
 }
 
-#name {
-	font-family: 'Inconsolata', serif;
-	color: #282828;
-	letter-spacing: 2px;
-	margin-left: 60px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 25pt;
-	float: left;
-	display: inline;
-	font-weight: 300;
-	padding-bottom: 3px;
-
+#main {
+  margin-top: 70px;
+  font-size: 50pt;
+  color: #323335;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
-.nav-item {
-	color: #282828;
-	letter-spacing: 6px;
-	margin-right: 60px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 10pt;
-	float: right;
-	display: inline-block;
-	font-weight: 600;
-	padding-bottom: 3px;
-
+#yet {
+  font-size: 20pt;
+  color: #323335;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
-
-.nav-item:hover {
-	cursor: pointer;
-	color: grey;
+a {
+  padding: 15px;
+/*  font-size: 20pt;*/
+  color: #323335;
 }
 
-/* ===================================================  ABOUT PAGE  =================================================== */
-
-#left-wrap {
-	float: left;
-	position: relative;
-	margin-left: 5%;
-	top: 5%;
-	width: auto;
+a:hover {
+  color: grey;
 }
 
-
-#description {
-	color: #3C3D3D;
-	float: right;
-	padding-top: 30px;
-	width: 500px;
-	font-size: 15px;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 30px;
+#footer {
+  color: #323335;
+  font-family: 'Hammersmith One', sans-serif;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
 }
 
-#intro {
-	display: inline-block;
-	line-height: 25px;
-	margin: 0 auto;
-	font-family: 'Inconsolata', monospace;
-	letter-spacing: 3pt;
-	font-size: 30pt;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-#intro-border {
-	border-bottom: solid;
-	border-bottom-color:  #ABF2CD;
-	border-bottom-width: 7px;
-	display: inline-block;
-	line-height: 30px;
-	margin: 0 auto;
-	font-family: 'Inconsolata', monospace;
-	letter-spacing: 3pt;
-	font-size: 30pt;
+img {
+  width: 300px;
 }
 
-#wrapper {
-	margin: 0 auto;
-	width: 800px;
-	height: 400px;
-}
-
-
-p {
-	color: #3C3D3D;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 17pt;
-	font-size: 13.5px;
-}
-
-#prof {
-	text-align: center;
-	height: 300px;
-}
-
-a.text-links {
-	cursor: pointer;
-	display: inline-block;
-	background-size: 100% 200%;
-	color: #3C3D3D;
-	text-decoration: none;
-	border-bottom: solid 2px #CCADF4;
-	transition: .3s;
-	background-image: linear-gradient(to bottom, transparent 50%, #CCADF4 50%);
-}
-
-a.text-links:hover {
-  background-position: 0% 100%;
-}
-
-a.socials {
-	cursor: pointer;
-	text-decoration: none;
-}
-
-.images {
-	text-align: center;
-}
-
-
-/*Social Bar*/
-
-#socials {
-	margin-top: 25px;
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-.fa {
-	margin-left: 5px;
-	color: #3C3D3D;
-}
-
-.fa-spotify:hover {
-	transition: .2s;
-	color: #1ED760;
-}
-
-.fa-linkedin-square:hover {
-	transition: .2s;
-	color: #0077B5;
-}
-
-.fa-behance-square:hover {
-	transition: .2s;
-	color: #0057FF;
-}
-
-.fa-github-square:hover {
-	transition: .2s;
-	color: #800080;
-
-}
-
-.fa-instagram:hover {
-	transition: .2s;
-	color: #e95950;
-
-}
-
-
-/* ===================================================  PROJCT PAGE  =================================================== */
-
-h1 {
-	font-size: 40px;
-	letter-spacing: 3px;
-	font-family: Inconsolata;
-}
-
-p.headers {
-	font-family: Inconsolata;
-	font-size: 30px;
-	display: inline-block;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-right: 50px;
-	border-bottom: 5px solid #ABF2CD;
-	padding: 0px;
-	letter-spacing: 2px;
-
-}
-
-h3, h4, p.description, .proj-des {
-	font-family: 'Open Sans', sans-serif;
-}
-
-h4 {
-	color: grey;
-}
-
-p.description  {
-	color: #3C3D3D;
-	margin-left: 100px;
-	font-size: 15px;
-	padding: 0px;
-	line-height: 35px;
-}
-
-
-#project-wrapper {
-	min-width: 350px;
-	width: 55%;
-	margin-left: 80px;
-}
-
-.project-high, .project-wide {
-	margin-top: 7%;
-	margin-left: 100px;
-	width: 110%;
-	max-width: 1000px;
-}
-
-.proj-img-wide, .proj-img-high {
-	display: block;
-	position: relative;
-	margin: 0 auto;
-
-}
-
-.proj-img-wide {
-	width: 100%;
-}
-
-.proj-img-high {
-	height: 90%;
-
-}
-
-.img-container {
-	margin: 0 auto;
-	width: 90%;
-	/*border: solid;*/
-}
-
-.proj-card {
-	position: relative;
-	width: 100%;
-	max-width: 700px;
-	padding-bottom: 10px;
-}
-
-
-.proj-title {
-	font-family: Inconsolata;
-	font-size: 20pt;
-}
-
-.proj-des {
-	margin-top: 20px;
-	color: #3C3D3D;
-	font-size: 15px;
-	line-height: 35px;
-}
-
-
-/* ===================================================  MEDIA QUERIES =================================================== */
-
-@media screen and (max-width: 991px) {
-	.project-high, .project-wide {
-		margin-top: 7%;
-		margin-left: 0px;
-		width: 100%;
-		max-width: 500px;
-	}
-
-
-	.proj-img-wide, .proj-img-high {
-		margin: 0 auto;
-	}
-
-	.proj-img-wide {
-		width: 100%;
-	}
-
-	.proj-img-high {
-		height: 90%;
-	}
-
-	.img-container {
-		margin: 0 auto;
-		width: 100%;
-	}
-
-	.proj-card {
-		margin: 0 auto;
-		position: relative;
-		width: 100%;
-		
-		padding-bottom: 10px;
-		text-align: none;
-	}
-
-	p.description {
-		margin-left: 0px;
-	}
-
-	#project-wrapper {
-		margin: 0 auto;
-	}
-
-}
+/* Media Queries */
 
 @media screen and (max-width: 460px) {
-
-	.nav-item, #name {
-		display: block;
-		float: none;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	#wrapper {
-		width: 100%;
-	}
-
-	#left-wrap {
-		margin: 0 auto;
-		width: 90%;
-		float: none;
-	}
-
-	#prof {
-		height: 100%;
-	}
-
-	#description {
-		margin: 0 auto;
-		float: none;
-		width: 90%;
-		padding-bottom: 40px;
-	}
-
-	#intro, #intro-border {
-		font-size: 30pt;
-	}
-
-	p {
-		font-size: 13pt;
-		line-height: 30pt;
-	}
-
-	.project-high, .project-wide {
-		margin-top: 7%;
-		width: 110%;	
-	}
-
-	.proj-img-wide, .proj-img-high {
-		display: block;
-		position: relative;
-		margin: 0 auto;
-	}
-
-	.proj-img-wide {
-		width: 90%;
-	
-	}
-
-	.proj-img-high {
-		height: 70%;
-	}
-
-	.img-container {
-		margin: 0 auto;
-		width: 100%;
-	}
-
-	.proj-card {
-		margin: 0 auto;
-		position: relative;
-		width: 100%;
-		padding-bottom: 10px;
-		text-align: none;
-	}
-
-	p.description {
-		margin-left: 0px;
-	}
-
-	#project-wrapper {
-		margin: 0 auto;
-	}
-
+    #main {
+      font-size: 25pt
+    }
+    
+    img {
+      width: 55%;
+    }
 }
-
