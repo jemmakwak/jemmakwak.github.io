@@ -1,450 +1,219 @@
-
-/* =================================================== NAV BAR =================================================== */
+@font-face {
+  font-family: 'Apple LiGothic';
+  src:
+    local('Apple LiGothic'),
+    local('AppleLiGothic-Medium'),
+    url('AppleLiGothicMedium.ttf');
+}
 
 body {
-	/*background-image: url("../doodles.png");*/
+  /*border: solid;*/
+  max-width: 800px;
+  margin: 0 auto;
+
 }
 
-#wrap-all {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
+#top-bar {
+  font-family: 'Nunito', sans-serif;
+  /*border: solid;*/
+  margin-bottom: 20px;
 }
 
-::selection {
-	background: rgba(186, 186, 186, 0.2);
+.menu-item {
+  display: inline-block;
+  margin: 50px 10px 10px 0px;
+  cursor: pointer;
 }
 
-
-#top {
-	/*border: solid;*/
-	padding-top: 15px;
-	width: 100%;
-	max-width: 1300px;
-	height: 90px;
-	margin: 0 auto;
+#name {
+  font-family: 'Apple LiGothic', sans-serif;
+  font-size: 40px;
+  letter-spacing: -.1px;
+  color: #222222;
 }
-
-#Logo {
-	height: 100px;
-	padding: 3% 0;
-	/*margin-left: 10px;*/
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	opacity: 0.8;
-}
-
-.nav-item {
-	font-family: 'Nunito Sans', sans-serif;
-	text-decoration: none;
-	color: rgba(66, 66, 66, 0.36);
-	letter-spacing: 1px;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 11pt;
-	float: left;
-	display: block;
-	margin: 15px;
-	font-weight: 700;
-}
-
-
-.nav-item:hover {
-	cursor: pointer;
-	color: #9B9B9B;
-}
-
-#footer {
-	text-align: center;
-}
-
-#socials {
-	margin-right: 15px;
-	float: right;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-/* ===================================================  ABOUT PAGE  =================================================== */
-
-#right-wrap {
-	/*border: solid;*/
-	float: right;
-	position: relative;
-	margin-left: 0;
-	top: 7%;
-	width: auto;
-}
-
 
 #description {
-	/*border: solid;*/
-	float: left;
-	padding-top: 30px;
-	width: 330px;
+  padding: 20px 0px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #3B3A3A;
 }
 
-.title {
-	padding-bottom: 15px;
-	color: rgba(153, 152, 149, 0.58);
-	line-height: 25px;
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 1pt;
-	font-size: 35pt;
-	font-weight: 900;
-}
+/*project grid*/
 
-
-#wrapper {
-	margin: 0 auto;
-	padding-top: 20px;
-	width: 590px;
-	height: 370px;
+.header {
+  font-family: 'Apple LiGothic', sans-serif;
+  font-size: 25px;
+  color: #414141;
+  margin-top: 30px;
+  letter-spacing: 1px;
 }
 
 
-p {
-	color: rgba(153, 152, 149, 0.7);
-	font-family: 'Nunito Sans', sans-serif;
-	line-height: 18pt;
-	font-size: 14px;
-	letter-spacing: .2px;
+.work-grid {
+  text-align: center;
+
+  font-family: 'Nunito', sans-serif;
 }
 
-#prof {
-	text-align: center;
-	height: 245px;
-}
-
-a.text-links {
-	color: rgba(153, 152, 149, 1);
-	cursor: pointer;
+.work-container {
+  text-align: center;
+  min-width: 300px;
+  width: 44%;
+  margin: 25px 2.5% 0px 2.5%;
 	display: inline-block;
-	text-decoration: #F1A8A9;
-	border-bottom: solid 2px #F1A8A9;
-	/*transition: .2s;*/
+  border-radius: 5px;
 }
 
-a.des-links {
-	color: rgba(153, 152, 149, 0.7);
-	cursor: pointer;
-	display: inline-block;
-	text-decoration: #F1A8A9;
-	border-bottom: solid 2px #F1A8A9;
-	/*transition: .2s;*/
+.work-container:hover, .work-title:hover {
+  color: #FF9B38;;
 }
 
-a.text-links:hover, a.des-links:hover {
-  color: #F1A8A9;
-}
-
-a.socials {
-	cursor: pointer;
-	text-decoration: none;
-}
-
-.images {
-	margin-top: 35px;
-	text-align: center;
-	/*box-shadow: 15px 13px 0px #F7E1BC;*/
-}
-
-
-/* ===================================================  WORK PAGE  =================================================== */
-
-#projects-container {
-	margin: 0 auto;
-	text-align: center;
-	width: 100%;
-	max-width: 1300px;
-}
-
-.header-container {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 1.4em;
-	margin-top: 1.4em;
-	bottom: 0;
-	color: rgba(153, 152, 149, 0.58);
-	line-height: 25px;
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 1pt;
-	font-size: 2em;
-	font-weight: 900;
-}
-
-/* ===================================================  PROJECT TEMPLATE STYLES  =================================================== */
-
-.project-title {
-	padding-bottom: 15px;
-	color: rgba(153, 152, 149, 0.58);
-	line-height: 35px;
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 2pt;
-	font-size: 30pt;
-	font-weight: 900;
-}
-
-.project-wrapper {
-	/*border: solid;*/
-	margin: 0 auto;
-	padding: 50px;
-	width: 50vw;
-
-}
-
-.project-description {
-	width: 100%;
-	font-size: 10px;
-	line-height: 30px;
-	margin-top: 15px;
-}
-
-.header  {
-/*	border: solid;*/
-	padding: 15px 0px;
-	color: rgba(153, 152, 149, 0.58);
-	line-height: 25px;
-	font-family: 'Lato', sans-serif;
-	letter-spacing: 1pt;
-	font-size: 20pt;
-	font-weight: 900;
-}
-
-.meta-data {
-	color: rgba(132, 132, 132, 0.9);
-	font-family: 'Nunito Sans', sans-serif;
-	line-height: 17pt;
-	font-size: 14.5px;
-	letter-spacing: .2px;
-	padding: 10px 0px;
-
-}
-
-.project-image-container {
-	margin: 10px;
-	text-align: center;
-	padding: 10px 0px;
-}
-
-.project-image {
-	width: 100%;
-	border-radius: 5px;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.39), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.project-p {
-	color: rgba(153, 152, 149, 1);
-	font-family: 'Nunito Sans', sans-serif;
-	line-height: 23pt;
-	font-size: 16px;
-	letter-spacing: .2px;
-
-}
-
-.small-comment {
-	font-size: 14px;
-}
-
-
-/*EXPERIMENTAL*/
-
-a {
-	text-decoration: none;
-}
-
-.img-container {
-	margin: 0 auto;
-	margin: 8px 15px 15px 8px;
-	border-radius: 5px;
-	width: 25%;
-	display: inline-block;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+.work {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-	/*cursor: pointer;*/
-	position: relative;
+  border-radius: 15px;
 }
 
-.img-container img {
+.work:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.work-container img {
   width: 100%;
 }
 
-.img-container:hover .pic-overlay {
-  opacity: 1;
-
+.work-title {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  padding: 15px;
 }
 
-.img-container:hover {
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.15);
+#wrapper {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 70%;
 }
 
-.work-text {
-	color: rgba(132, 132, 132, 0.8);
-	/*color: white;*/
-	font-size: 1.5em;
-	position: absolute;
-	font-family: 'Lato', sans-serif;
-	width: 70%;
-	/*padding: 10px;*/
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+.meta {
+  font-family: 'Nunito', sans-serif;
+  color: #989898;
+  padding-bottom: 20px;
 }
 
-.pic-overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	transition: .34s ease;
-	background: white;
-	/*background-image: url("../doodles.png");*/
+.description, .project-description {
+  padding: 10px 0;
+  font-family: 'Nunito', sans-serif;
+  line-height: 33px;
 }
 
-/* ===================================================  SOCIAL BAR  =================================================== */
-
-.fa {
-	margin-left: 5px;
-	color: rgba(132, 132, 132, 0.8);
+.project-description {
+  color: #3B3A3A;
 }
 
-.fa-spotify:hover {
-	transition: .2s;
-	color: #1ED760;
+.project-header {
+  font-family: 'Apple LiGothic', sans-serif;
+  font-size: 30px;
+  padding: 20px 0;
 }
 
-.fa-linkedin-square:hover {
-	transition: .2s;
-	color: #0077B5;
+.quote {
+  font-size: 100px;
+  font-family: 'IM Fell DW Pica', serif;
+  color: rgba(153, 152, 149, 0.58);
+}
+.project-image-container img {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.fa-behance-square:hover {
-	transition: .2s;
-	color: #0057FF;
+.project-image-container, .project-image-container img  {
+  width: 500px;
 }
 
-.fa-github-square:hover {
-	transition: .2s;
-	color: #800080;
+.project-image-container {
+  padding: 30px;
+  margin: 0 auto;
 }
 
-.fa-instagram:hover {
-	transition: .2s;
-	color: #e95950;
+.small-comment {
+  text-align: center;
+  color: #989898;
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
 }
 
-#author {
-	font-size: 13px;
-	margin: 25px;
-	color: rgba(153, 152, 149, 0.7);
-	font-family: 'Nunito Sans', sans-serif;
+a {
+  color: #3B3A3A;
+  text-decoration: none;
 }
 
-/* ===================================================  MEDIA QUERIES =================================================== */
+a:hover {
+  color: #FF9B38;
+}
+
+a.text-links {
+  font-family: 'Nunito', sans-serif;
+
+  color: #EA8F33;
+  text-decoration: none;
+}
+
+a.text-links:hover {
+  color: #FF9B38;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+}
+
+.back {
+  padding: 20px 0;
+}
 
 @media screen and (max-width: 500px) {
+  .project-image-container, .project-image-container img  {
+    width: 100%;
+    padding: 0px;
+  }
 
-	.project-wrapper {
-		width: 80%;
-		padding: 0px;
-		margin-top: 10px;
-	}
+  #wrapper {
+    width: 90%;
+  }
+  #footer {
+    padding: 0;
+  }
 
-	.title {
-		font-size: 30px;
-	}
+  body {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .work-container {
+    margin: 10px;
+  }
 
-	#socials {
-
-	}
-
-	#Logo {
-		height: 55px;
-		margin: 0 auto;
-	}
-
-	#top {
-		margin: 0 auto;
-
-	}
-
-	.nav-item {
-		text-align: center;
-		text-decoration: none;
-		font-size: 13px;
-		padding: 0px;
-		margin-right: 9;
-	}
-
-	#wrapper {
-		width: 100%;
-		height: auto;
-	}
-
-	#right-wrap {
-		position: static;
-		margin: 0px;
-		width: 90%;
-		float: none;
-	}
-
-
-	.images {
-		width: 120px;
-		float: none;
-		margin: 0 auto;
-	}
-
-	#prof {
-		position: static;
-		height: 30%;
-		margin: 0 auto;
-	}
-
-	#description {
-		margin: 0 auto;
-		float: none;
-		width: 90%;
-		padding-bottom: 0px;
-	}
-
-	#intro {
-		font-size: 30pt;
-		font-weight: 900;
-	}
-
-	.header {
-		padding-bottom: 15px;
-		line-height: 25px;
-		letter-spacing: 1pt;
-		font-size: 20pt;
-		font-weight: 900;
-	}
-
-	.meta-data {
-		line-height: 17pt;
-		font-size: 13px;
-		letter-spacing: .2px;
-
-	}
-
-	.img-container {
-		width: 90%;
-	}
-
-	#footer {
-		padding: 30px;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.project-image {
-	width: 100%;
+  #about-container {
+    max-width: 90%;
+  }
 }
 
+#profile, #profile img{
+  margin: 0 auto;
+  text-align: center;
+  width: 240px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+#about-container {
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 560px;
 }
