@@ -159,7 +159,6 @@ a:hover {
 
 a.text-links {
   font-family: 'Nunito', sans-serif;
-
   color: #EA8F33;
   text-decoration: none;
 }
@@ -172,8 +171,9 @@ a.text-links:hover {
   width: 100%;
   text-align: center;
   padding: 20px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  
 }
 
 .back {
