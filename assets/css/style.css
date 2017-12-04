@@ -173,7 +173,7 @@ a.text-links:hover {
   padding: 20px;
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
-  
+
 }
 
 .back {
@@ -209,7 +209,7 @@ a.text-links:hover {
 #profile, #profile img{
   margin: 0 auto;
   text-align: center;
-  width: 240px;
+  width:500px;
   border-radius: 5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
