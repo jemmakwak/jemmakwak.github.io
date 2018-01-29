@@ -622,6 +622,14 @@ p {
         text-align:center
     }
 
+    .overlay {
+        opacity:1;
+    }
+
+    .project-img-container img {
+        opacity: 1;
+    }
+
     .content-container,.project-image-container,.project-image-container img {
         height: auto;
         width: 100%;
@@ -659,8 +667,9 @@ p {
 
     .float,.meet {
         width: 95%;
-        height: 400px;
-        margin: 0 auto
+        height: 300px;
+        margin: 0 auto;
+        opacity: 1;
     }
 
     .section-right {
@@ -671,8 +680,8 @@ p {
     .section-right-hidden {
         display: block;
         width: 60%;
-        height: 55%;
-        margin: 0 auto
+        height: 35%;
+        margin: 0 auto;
     }
 
     .section-left {
@@ -701,7 +710,8 @@ p {
         position: relative;
         display: inline-block;
         margin: 5px;
-        overflow: hidden
+        overflow: hidden;
+        opacity: 1;
     }
 
     .button {
