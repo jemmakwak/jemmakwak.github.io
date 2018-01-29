@@ -32,6 +32,8 @@ $(document).ready(function(){
       $actualContent.waypoint(function() {
         $actualContent.addClass('animate-in');
       }, {offset: '60%'});
+  } else {
+    
   }
 
 });
