@@ -3,7 +3,6 @@ $(document).ready(function(){
 
 
   if ($(window).width() > 500) {
-
       var $intro = $('.float');
       $intro.waypoint(function() {
         $intro.addClass('animate-in');
@@ -33,7 +32,10 @@ $(document).ready(function(){
         $actualContent.addClass('animate-in');
       }, {offset: '60%'});
   } else {
-    
+    $(".float").css("opacity", "1");
+    $(".float-project").css("opacity", "1");
+    $(".overlay").css("opacity", "1");
+    $(".content").css("opacity", "1");
   }
 
 });
