@@ -15,141 +15,296 @@
 	rel="stylesheet"  type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo:400,400i,500,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 	<script src="assets/js/waypoints.js"></script>
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<!-- Top -->
-	<div class = "container">
+
+	<div id="myNav" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div class="overlay-content">
+		<div class = "left-menu">
+
+			<!-- Piazza -->
+
+			<div id = "bcourses" class ="menu-item">
+				<a href="bcourses.html">
+					bCourses
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2018 - Web Design - Design Thinking
+				</div>
+			</div>
+
+
+			<!-- Piazza -->
+
+			<div id = "piazza" class ="menu-item">
+				<a href="piazza.html">
+					Piazza
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2018 - Mobile UI/UX - Design Thinking
+				</div>
+			</div>
+
+			<!-- Olark x BI -->
+			<div id = "bi"class ="menu-item">
+				<a href="bi.html">
+					Olark x Berkeley Innovation
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2018 - Product Design - Design Thinking
+				</div>
+			</div>
+
+			<!-- BerkeleyTime -->
+			<div id = "bt" class ="menu-item">
+				<a href="bt.html">
+					BerkeleyTime
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2017-2018 - Product Design - Web Design
+				</div>
+			</div>
+
+			<!-- ASUC OCTO -->
+			<div id = "octo" class ="menu-item">
+				<a href="octo.html">
+					ASUC OCTO
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2017-2018 - Product Design - Web Design
+				</div>
+			</div>
+
+			<!-- Illustrations and Visual Art -->
+			<div id = "illos" class ="menu-item">
+				<a href="illos.html">
+					Visual Art
+					<div class = "underline underline-yellow"></div>
+				</a>
+				<div class = "item-description">
+					2017-2018 - Graphic Design
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class = "footer">
+				<a href = "about.html">About</a>
+				<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
+				<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
+				<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
+				<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
+			</div>
+		</div>
+
+		<div class = "right-menu">
+			<div class = "background-img">
+				<img src = "assets/img/bcourses/preview.png" />
+			</div>
+		</div>
+
+  </div>
+</div>
+
 	<div class = "top">
-		<!-- <a href = "index.html"><div id = "name">Jemma Kwak</div></a> -->
-		<a href = "index.html"><div id = "name">Jemma Kwak</div></a>
-		<div id = menu>
-			<a href = "index.html"><div class = "menu-item">Work</div></a>
-			<a href = "about.html"><div class = "menu-item">About</div></a>
-			<a href = "assets/resume.pdf"><div class = "menu-item">Resume</div></a>
+		<div class = "home">
+			<a href = "index.html">
+				Jemma Kwak
+				<div class = "underline underline-yellow"></div>
+			</a>
 		</div>
-	</div>
-	<div class = "section-right-hidden">
-		<img src = "assets/img/me.png" class = "image"/>
-	</div>
-		<div class = "float">
-			<div class = "section-left">
-				<div class = "title reg">
-					Hi, I'm <span id = "blue-accent">Jemma</span>.
-				</div>
-				<div class = "description">
-					I&#39;m a second year studying cognitive science at UC Berkeley.
-				</div>
-				<a href= "mailto:yeogyoungkwak@berkeley.edu?Subject=Hello%20There!" class = "button red-accent">Say hello!</a>
-				<a href= "#rest" class = "button yellow-accent">Some work, first.</a>
-			</div>
-			<div class = "section-right">
-				<img src = "assets/img/me.png" class = "image"/>
-			</div>
+
+		<div class = "menu" onclick="openNav()">
+			Menu
+			<div class = "underline underline-yellow"></div>
 		</div>
 	</div>
 
-	<div id = "rest">
-			<div class = "projects-container">
-
-				<!-- Project 1 -->
-				<a href = "piazza.html"><div class = "project-img-container">
-						<img src = "assets/img/piazzacard.png" class = "image">
-					<div class = "overlay">
-						<div class = "text">
-							<div class = "meta-title">Piazza</div>
-							<div class = "category">UI/UX, Mobile</div>
-							<div class = "project-short">
-								A mobile redesign challenge of the classroom discussion forum.
-							</div>
-						</div>
-					</div>
-				</div>
-				</a>
-
-			<!-- Project 2: BerkeleyTime -->
-			<a href = "bt.html"><div class = "project-img-container house">
-					<img src = "assets/img/btcard.png" class = "image">
-				<div class = "overlay">
-					<div class = "text">
-						<div class = "meta-title">BerkeleyTime</div>
-						<div class = "category">Web Design</div>
-						<div class = "project-short">
-							Redesigning Cal's most popular online catalog.
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-
-			<!-- Project 3: ASUC OCTO -->
-				<a href = "octo.html"><div class = "project-img-container">
-						<img src = "assets/img/card2.png" class = "image">
-					<div class = "overlay">
-						<div class = "text">
-							<div class = "meta-title">ASUC OCTO</div>
-							<div class = "category">Web Design</div>
-							<div class = "project-short">
-								An ongoing project for UC Berkeley's technology office.
-							</div>
-						</div>
-					</div>
-				</div>
-				</a>
-
-				<!-- Project 4: Illos -->
-				<a href = "illustration.html"><div class = "project-img-container">
-						<img src = "assets/img/fun/extra.png" class = "image">
-					<div class = "overlay">
-						<div class = "text">
-							<div class = "meta-title">Illustration</div>
-							<div class = "category">Graphic Design</div>
-							<div class = "project-short">
-								A collection of digital art I have produced for student organizations and for fun!
-							</div>
-						</div>
-					</div>
-				</div>
-				</a>
-
-			<!-- Project 5: Housemate -->
-
-			<div class = "project-img-container">
-					<img src = "assets/img/card1.jpg" class = "image">
-				<div class = "overlay">
-					<div class = "text">
-						<div class = "meta-title">Housemate</div>
-						<div class = "category">Mobile UI/UX</div>
-						<div class = "project-short">
-							(Coming Soon!) Rethinking the current system for finding accessible housing.
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Project 6: CS KickStart -->
-
-			<div class = "project-img-container">
-					<img src = "assets/img/csks.png" class = "image">
-				<div class = "overlay">
-					<div class = "text">
-						<div class = "meta-title">CS KickStart</div>
-						<div class = "category">Web Design</div>
-						<div class = "project-short">
-							(Coming Soon!) A redesign of the CS KickStart website.
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class = "footer">Made with  ☕ and 💖 by Jemma Kwak</div>
-			</div>
+	<div class = "landing-intro">
+		<div class = "big">
+			Hi, I&#39;m Jemma.
+		</div>
+		<div class = "small-bio">
+			I am a user-centered designer and second-year student at
+			<a class = "blue" href ="https://berkeley.edu">
+				UC Berkeley
+				<div class = "underline underline-blue"></div>
+			</a> studying
+			Cognitive Science and Design Innovation. I strive to create meaningful, interactive experiences.
+			 <a class = "salmon" href = "about.html">
+				 Learn more about me. &#8594;
+				 <div class = "underline underline-salmon"></div>
+			 </a>
+		</div>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<div class = "landing-container">
+
+		<!-- bCourses -->
+		<div class="project">
+			<div class="col">
+				<div class = "project-description">
+					<div class = "title"> bCourses Redesign </div>
+					<div class = "blurb">
+						A redesign challenge of Berkeley's course management system.
+					</div>
+					<div class = "link">
+						<a href = "bcourses.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/bcourses/preview.png">
+				</div>
+			</div>
+		</div>
+
+		<!-- Piazza -->
+		<div class="project">
+		  <div class="col">
+				<div class = "project-description">
+					<div class = "title"> Piazza Redesign </div>
+					<div class = "blurb">
+						A mobile redesign challenge of the classroom discussion forum.
+					</div>
+					<div class = "link">
+						<a href = "piazza.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		  <div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/piazza/key.gif">
+				</div>
+			</div>
+		</div>
+
+		<!-- BerkeleyTime -->
+		<div class="project">
+			<div class="col">
+				<div class = "project-description">
+					<div class = "title"> BerkeleyTime</div>
+					<div class = "blurb">
+						Redesigning Cal's online course catalog.
+					</div>
+					<div class = "link">
+						<a href = "bt.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/bt/preview.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="col">
+				<div class = "project-description">
+					<div class = "title">Olark x Berkeley Innovation</div>
+					<div class = "blurb">
+						Rethinking the  feedback system of a modern workplace.
+					</div>
+					<div class = "link">
+						<a href = "bi.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/bi.png">
+				</div>
+			</div>
+		</div>
+
+		<!-- OCTO -->
+
+		<div class="project">
+			<div class="col">
+				<div class = "project-description">
+					<div class = "title">ASUC OCTO</div>
+					<div class = "blurb">
+						A revamping of the website for the ASUC Office of the
+						Chief Technology Officer.
+					</div>
+					<div class = "link">
+						<a href = "octo.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/octo/logo.png">
+				</div>
+			</div>
+		</div>
+
+		<!-- Illustrations -->
+
+		<div class="project">
+			<div class="col">
+				<div class = "project-description">
+					<div class = "title">Illustrations</div>
+					<div class = "blurb">
+						A growing collection of graphic artwork.
+					</div>
+					<div class = "link">
+						<a href = "illos.html">
+							View Case Study &#x2192;
+							<div class = "underline underline-yellow"></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col">
+				<div class = "grid-img">
+					<img src = "assets/img/fun/extra.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function openNav() {
+		    document.getElementById("myNav").style.width = "100%";
+		}
+
+		function closeNav() {
+		    document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+
 	<script src="assets/js/jquery.waypoints.min.js"></script>
 	<script src="assets/js/waypoints.js"></script>
 </body>
