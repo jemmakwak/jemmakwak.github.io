@@ -177,12 +177,20 @@ a:hover .underline {
   color: #4072E3;
 }
 
+.pivotal-blue {
+  color: #01b7a8;
+}
+
 .innod {
   color: #29CFE5;
 }
 
 .underline-innod {
   background: #A3F4FF;
+}
+
+.underline-pivotal-blue {
+  background: #d3fffb;
 }
 
 
