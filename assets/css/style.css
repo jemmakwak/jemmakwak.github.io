@@ -193,6 +193,15 @@ a:hover .underline {
   width: 100%;
 }
 
+.page-image-shadow {
+  margin-top: 5%;
+}
+
+.page-image-shadow img{
+  width: 100%;
+  box-shadow: 0 0px 50px rgba(0,0,0,0.05);
+}
+
 .description {
   display: inline-block;
   float: right;
@@ -203,7 +212,7 @@ a:hover .underline {
 }
 
 .full-image {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   /*box-shadow: 0 0px 50px rgba(0,0,0,0.05);*/
   padding: 20px 20px 20px 20px;
@@ -211,6 +220,10 @@ a:hover .underline {
 
 .full-image img {
   width: 100%;
+}
+
+.strong {
+  font-family: Circular-Medium;
 }
 
 .process-button, .resume-button {
@@ -221,6 +234,7 @@ a:hover .underline {
   border: solid 2px #EF2D56;
   border-radius: 40px;
   transition: .5s;
+  margin-right: 10px;
 }
 
 .process-button {
@@ -514,18 +528,19 @@ a:hover .underline {
 }
 
 .header {
-  letter-spacing: 1px;
   font-size: 2em;
-  font-family: Circular-Book;
+  font-family: Circular-Medium;
   margin: 1em 0;
   color: #272727;
+  /*line-height: 28px;*/
+  /*text-align: center;*/
 }
 
 .page-image {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   position: relative;
   text-align: center;
-  margin: 5% 0;
+  margin-top: 10%;
 }
 .project-text {
   font-size: 16px;

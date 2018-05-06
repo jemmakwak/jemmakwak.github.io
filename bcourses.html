@@ -149,6 +149,8 @@
 		</div>
 		</a>
 
+
+
 	</div>
 
 	<div class = "marvel">
@@ -168,72 +170,95 @@
 				 </div>
 				Despite most courses at UC Berkeley being hosted on bCourses, the current interface is painful to use. The app
 				leaves users feeling confused and frustrated, namely in its most crucial interactions.
-				<div class = "page-image">
+				<div class = "page-image-shadow">
 				 <img src = "assets/img/bcourses/old/landing.png">
+				 <div class = "grid-caption">
+					 Current home view. Action items are pushed to the right and there is lack of course distinction.
+				 </div>
 			 </div>
+			 <div class = "page-image-shadow">
+				<img src = "assets/img/bcourses/old/assignments.png">
+				<div class = "grid-caption">
+					Lack of pertinent information regarding assignment submission.
+				</div>
+			</div>
+			<div class = "page-image-shadow">
+			 <img src = "assets/img/bcourses/old/files-gif.gif">
+			 <div class = "grid-caption">
+				 Unintuitive file search.
+			 </div>
+		 </div>
+
 				<div class = "header">
 					User Research
 				</div>
 				<div class = "page-image">
-				 <img src = "assets/img/bcourses/graph.png">
+				 <img src = "assets/img/bcourses/bar.png">
 			 </div>
 			 <div class = "page-image">
-				<img src = "assets/img/bcourses/purpose.png">
+				<img src = "assets/img/bcourses/chart.png">
+				<div class = "grid-caption">
+					Survey results of student use cases.
+				</div>
 			</div>
-	 			A survey of 20 students currently attending UC Berkeley showed the necessity of bCourses, and revealed
-				the pain points of the students. The main pain points were the following:
+	 			A survey of 20 students currently attending UC Berkeley showed that students weren't using bcourses beyond the functionalities
+				that enabled students to succeed in their classes(submitting assignments, viewing readings), When diving
+				into the pain points of the students, we discovered some key insights:
 				<ul>
 					<li>
-						The Jack of All Trades
+						Idle Features
 					</li>
 					<li>
-						Desire for clarity
+						Lack of Clarity
 					</li>
 					<li>
-						Connectivity
+						Building Community
 					</li>
 					<li>
-						Aesthetic
+						Aesthetics and Feel
 					</li>
 				</ul>
 
 			 <div class = "four-grid">
 				 <div class = "grid-item">
 					<div class = "grid-header">
-						Jack of All Trades
+						Idle Features
 					</div>
 					<div class = "grid-item-description">
-						Users often showed they were more likely to use bCourses for tasks that were
-						mandatory. The majority of users did not use Calendar and Inbox, due to having an
-						established application for these purposes.
+						Users noted they tended to not use features such as calendar and inbox,
+						stating they already had established methods and mediums for carrying out this functionality.
 					</div>
 				 </div>
 
 				 <div class = "grid-item">
 					<div class = "grid-header">
-						Clarity
+						Lack of Clarity
 					</div>
 					<div class = "grid-item-description">
-						The most common pain point among students was the need for
-						 clarity across its crucial functionalities — this included file search,
-						  course distinction, and assignment submissions.
+						Students noted the lack of clarity
+across the main features of
+bCourses— this included file search,
+course distinction, and assignment
+submissions.
 					</div>
 				 </div>
 
 				 <div class = "grid-item">
 					<div class = "grid-header">
-						Connectivity
+						Building Community
 					</div>
 					<div class = "grid-item-description">
-						Lots of students noted that they did not use the Groups feature,
-						but wanted a better way to use the platform to connect with students and faculty in the class.
-
+						Lots of students noted that they did
+not use the Groups feature, but
+wanted a better way to use the
+platform to connect with students
+and faculty in the class.
 					</div>
 				 </div>
 
 				 <div class = "grid-item">
 					<div class = "grid-header">
-						Aesthetics
+						Aesthetics and Feel
 					</div>
 					<div class = "grid-item-description">
 						Many students noted that bCourses’ UI felt clunky and out-of-date. A major part of the
@@ -241,14 +266,29 @@
 					</div>
 				 </div>
 			 </div>
+
+			 <div class = "header">
+				 How might we streamline the experience of accessing course materials?
+			 </div>
 			 </div>
 		 </div>
-		 <div class = "full-image">
-			<img src = "assets/img/bcourses/old/assignments.png">
-		</div>
 
 		<div class = "page-container">
 		<div class = "project-text">
+			<div class = "header">
+			 Redesign Goals
+			</div>
+			<ol>
+				<li>
+					<strong>Streamline</strong> - Increase ease of access and flow of files, assignments, grades, and submission.
+				</li>
+				<li>
+					<strong>Centralize</strong>  - Concentrate pertinent interactions and student priorities into a singular dashboard.
+				</li>
+				<li>
+					<strong>Update</strong>  - Bring site aesthetics up to speed with current visual trends and patterns.
+				</li>
+			</ol>
 
 			 <div class = "header">
 				The Solution
@@ -256,14 +296,57 @@
 			 I narrowed my focus on improving the existing systems that students felt were mandatory for succeeding in their classes(viewing
 			 instructor-uploaded content, submitting assigments, and checking grades). These interactions were noted as
 			 the most difficult to navigate.
+			 <div class = "page-image-shadow">
+				<img src = "assets/img/bcourses/mid/dash.png">
+				<div class = "grid-caption">
+					Redesigned dashboard view.
+				</div>
+			</div>
+
+			<ol>
+				<li>
+					<strong>Assignments</strong> - A centralized location for the most recently assigned work.
+				</li>
+				<li>
+					<strong>Courses</strong>  - Easy access and viewing for each course a student is enrolled in.
+				</li>
+				<li>
+					<strong>Updates</strong>  - The most recent announcements in a centralized location.
+				</li>
+			</ol>
+
+			<div class = "page-image-shadow">
+			 <img src = "assets/img/bcourses/mid/files.png">
+			 <div class = "grid-caption">
+				 Redesigned file view.
+			 </div>
+		 </div>
+
+		 <ol>
+			 <li>
+				 <strong>Visible Search</strong> - File search that appears immediately to the user, as opposed to hidden within the layers of folders.
+			 </li>
+			 <li>
+				 <strong>Folders and Files</strong>  - Folders and files in an more intuitive, GUI, much like Google Drive’s organization.
+			 </li>
+		 </ol>
 
 			 <div class = "header">
 				User Flow
 			 </div>
 		 </div>
 	 </div>
+		 <div class = "full-image">
+			<img src = "assets/img/bcourses/flow2.png">
+			<div class = "grid-caption">
+				Redesigned site flow of the home page.
+			</div>
+		</div>
 			 <div class = "full-image">
 				<img src = "assets/img/bcourses/flow.png">
+				<div class = "grid-caption">
+					Redesigned site flow of a course page.
+				</div>
 			</div>
 	<div class = "page-container">
 		<div class = "project-text">
