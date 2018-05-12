@@ -150,7 +150,7 @@ a:hover .underline {
 }
 
 .underline-salmon {
-  background: #FFD9DF;
+  background: #bbf9cf;
 }
 
 .underline-yellow {
@@ -158,7 +158,7 @@ a:hover .underline {
 }
 
 .salmon {
-  color: #E64B63;
+  color: #21af4e;
 }
 
 .underline {
@@ -445,6 +445,14 @@ a:hover .underline {
   color: #ff6600;
 }
 
+.adobe {
+  color: #ff0000;
+}
+
+.underline-adobe {
+  background: #ff9696;
+}
+
 .underline-orange {
   background: #FFD6B2;
 }
@@ -674,6 +682,14 @@ a:hover .underline {
     height: 85vh;
     margin: 0 auto;
     text-align: center;
+  }
+
+  .landing-intro {
+    height: 80vh;
+  }
+
+  .page-intro {
+    height: 85vh;
   }
 
   .grid-img {
