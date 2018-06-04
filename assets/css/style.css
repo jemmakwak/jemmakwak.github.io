@@ -43,9 +43,9 @@ img {
 }
 
 .top {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 2.5em 0;
   position: relative;
   opacity: 0;
   transition: .2s;
@@ -330,12 +330,12 @@ a:hover .underline {
 
 .overlay .closebtn {
     position: absolute;
+    top: 50px;
     color: #D5D5D5;
 }
 
 .closebtn {
   position: relative;
-  top: 20px;
   left: 96%;
   font-size: 60px;
   z-index: 4;
@@ -351,14 +351,16 @@ a:hover .underline {
 }
 
 .landing-intro {
-  top: 10%;
-  padding: 5% 0;
+  top: 20%;
+  /* padding: 5% 0; */
   position: relative;
-  width: 45%;
+  width: 50%;
   height: 60vh;
-  left: 10%;
+  /* left: 10%; */
   opacity: 0;
   transition: 1s;
+  text-align:  center;
+  margin:  0 auto;
 }
 
 .page-intro {
@@ -367,12 +369,15 @@ a:hover .underline {
   position: relative;
   width: 45%;
   height: 55vh;
-  left: 10%;
+  /* left: 10%; */
   opacity: 0;
   transition: 1s;
+  margin:  0 auto;
+  text-align:  center;
 }
 
 .big {
+  text-align:  center;
   font-family: Circular-Bold;
   font-size: 3.5em;
   color: #464646;
@@ -705,6 +710,7 @@ a:hover .underline {
   .big {
     font-size: 3em;
     /* width: 110%; */
+    text-align:  center;
   }
 
   .profile, .description {
