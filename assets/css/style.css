@@ -37,6 +37,10 @@
   background: #f6f6f6;
 }
 
+.green {
+  color: #9ceda4;
+}
+
 .overlay-a {
   position: relative;
   transition: color 0.2s ease;
