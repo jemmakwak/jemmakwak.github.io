@@ -19,360 +19,375 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<div id="myNav" class="overlay">
-		<div class = "button-holder">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id = "hi"></div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<div id = "top">
+			&#9757;
+		</div>
+	</button>
+
+<header>
+	<a href = "index.html" class = "logo">
+		<img style ="width:32px" src = "assets/img/me.png" />
+	</a>
+
+	<nav>
+		<span class = "about">
+			<a href = "assets/resume.pdf">Resume</a>
+		</span>
+
+		<span class = "about">
+			<a href = "about.html">About</a>
+		</span>
+	</nav>
+</header>
+
+		<div class = "behind">
+			<img class = "background-img"src = "assets/img/bi/preview.png" />
 		</div>
 
 
-
-  <div class="overlay-content">
-		<div class = "left-menu">
-
-			<!-- Menu Description -->
-			<div class = "menu-item" id = "menu-description">
-				Currently based in beautiful Berkeley, California. Listening to some <a class = "beats" href ="https://www.youtube.com/watch?v=I1AmkMuB0pA">beats</a>.
+	<div class = "project-container">
+		<div class = "project-intro">
+			<div class = "project-title bold centered">
+				Olark Feedback System
 			</div>
 
-			<!-- WORK -->
+			<div class = "project-description medium centered">
+				Redesigning a unique remote feedback system.
+			</div>
+		</div>
 
-			<div id = "bcourses" class ="menu-item" >
-				<a href = "index.html" class = "menu-a" id="gray" class = "thick">Work</a>
+		<div class = "work-section">
+			<div class = "work-col">
+				Introduction
 			</div>
 
-			<!-- ABOUT -->
+			<div class = "work-col">
+				<div class = "bold header">
+					Olark
+ is a live chat software system aimed at making businesses human again by supporting their client’s live chats with sales, marketing, and customer support.
+				</div>
+				Through Berkeley Innovation in the Spring 2018 semester, I worked on a redesign of Olark's internal employee feedback system. I worked with David Aguilar, Kirra Dickinson, and Erika Jin on this project. We were mentored by Kathleen Hsu.
+				<br /><br />
+				Our team collaborated with Olark’s Director of People Ops and Director of Product Design to redesign their entirely remote feedback evaluation system.
+			</div>
+		</div>
 
-			<div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "about.html" class = "menu-a" id="gray">About</a>
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 001
 			</div>
 
-			<!-- EC -->
+			<div class = "work-col">
+				<div class = "bold header">
+					The Problem
+				</div>
+				Previously, the evaluation process occured on an annual basis. Their Google Form format was reported to be lengthy, tedious, and cumbersome. In a remote-first work setting, how do employees accurately gauge their work performance from their team members and manager?
 
-			<!-- <div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "" class = "menu-a" id="gray">Extra Credit</a>
-			</div> -->
+				<div class = "bold header">
+					Opportunity Areas
+				</div>
+				The scope of the project was to explore the needs of Olark employees in order to design an evaluation system that would elicit constructive feedback in a seamless manner. Areas we wanted to investigate: frequency of feedback, appropriate and engaging questions, and medium for giving and receiving feedback.
+			</div>
+		</div>
 
-			<!-- Footer -->
-			<div class = "footer">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 002
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					User Research
+				</div>
+				<div class = "bold header">
+					We conducted extensive research in order to better understand the experiences and needs of Olark’s employees by engaging in a variety of research methods:
+				</div>
+
+				<div class = "bold ">
+					Desktop Research
+				</div>
+				We familiarized ourselves with best practices regarding feedback design. We explored systems of feedback from other remote-based companies.
+
+				<div class = "bold">
+					Internal Interviews
+				</div>
+				 We conducted internal interviews with 12 Olark employees to better understand their experiences within the company and filling out evaluations.
+
+				 <div class = "bold">
+ 					External Interviews
+ 				</div>
+				To gain further insights into remote working conditions, we interviewed three employees from different remote companies.
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bi/research.png"></div>
+			<div class = "caption">
+				Whiteboarding high-level insights with my team.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 003
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Synthesizing Insights
+				</div>
+				<div class = "bold">
+					Key Insights
+				</div>
+				<ul>
+					<li>
+						Olark’s company culture can sometimes feel overly positive, which hinders the ability to receive actionable, constructive feedback.
+					</li>
+					<li>
+						Due to the evaluation’s annual timing, peers don’t often know what to comment in addition to running into recency bias.
+					</li>
+				</ul>
+
+				<div class = "bold">
+					User Pain Points
+				</div>
+				<ul>
+					<li>
+						Difficult to give feedback to peers outside of this annual evaluation form.
+					</li>
+					<li>
+						Process of consolidating feedback for managers is heavy-weight and time-consuming.
+					</li>
+					<li>
+						Many Olarkers do not reflect upon their feedback and lack actionable next steps to implement growth opportunity areas.
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bi/grouping.png"></div>
+			<div class = "caption">
+				My team members and I consolidating and grouping user research.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 003
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Identifying Key User Needs
+				</div>
+				<div class = "bold">
+					We then identified three key needs of Olark employees that we wanted to make sure to address in our solution.
+				</div>
+
+				<div class = "bold">Achievement</div>  Olarkers need to feel accomplished and look back at the end of the day and be proud of and happy with their work.
+				<div class = "bold">Progress + Personal Development</div>Olarkers want to know that they’re improving as employees and are on the right track for what’s next.
+				<div class = "bold">Affiliation</div>Olarkers thrive on a sense of belonging to the company and others.</li>
+
+			</div>
+	</div>
+</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bi/journey-mapping.png"></div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bi/personas.png"></div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line">
+			</div> 			004
+			</div>
+			<div class = "work-col">
+				<div class = "bold header">
+					Low Fidelity Sketches
+				</div>
+				<div class = "bold">
+					Objective
+				</div>
+				Brainstorm ideas for a new evaluation system that address the key needs of Olark’s employees
+				<div class = "bold">
+					Methods
+				</div>
+				Rapid ideation session, Figure 8
+				<div class = "bold">
+					Initial Ideas
+				</div>
+				<ul>
+					<li>Creating a feedback dashboard</li>
+					<li>Channels to promote frequent feedback</li>
+					<li>Forms to create actionable plans</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class = "mid-screen centered">
+				<div>	<img src = "assets/img/bi/sketches.png"></div>
+		</div>
+
+		<div class = "project-container">
+			<div class = "work-section">
+				<div class = "work-col">
+					<div class = "line">
+				</div> 			005
+				</div>
+				<div class = "work-col">
+					<div class = "bold header">
+						Mid Fidelity Prototyping
+					</div>
+					<div class = "bold">
+						Objective
+					</div>
+					Create a dashboard for Olarks evaluation system that would address their three key needs
+					<div class = "bold">
+						Goals
+					</div>
+					<ul>
+						<li>Site architecture</li>
+						<li>Content and copywriting</li>
+						<li>Content and copywriting</li>
+					</ul>
+					</div>
+				</div>
+			</div>
+			<div class = "mid-screen centered">
+					<div>	<img src = "assets/img/bi/mid.png"></div>
+			</div>
+
+			<div class = "project-container">
+				<div class = "work-section">
+					<div class = "work-col">
+						<div class = "line">
+					</div> 			006
+					</div>
+					<div class = "work-col">
+						<div class = "bold header">
+							Usability Testing
+						</div>
+						<div class = "bold">
+							Throughout usability testing, a few key roadblocks became apparent:e
+						</div>
+						<div class = "bold">
+							Unclear Expectations
+						</div>
+						Employees had trouble understanding why they had to complete an action. How was this relevant and how would it help them?
+						<div class = "bold">
+							Question Format
+						</div>
+						Our initial assumption was that Olarkers wanted solely free response questions. However, we learned that this was hard to quantify when compiling the data or looking at trends over time.
+						<div class = "bold">
+							Confusing Use Cases
+						</div>
+						We initially dedicated a huge portion of our prototype to a concept that incorporated meeting agendas with user goals. However, as we progressed through our user testing, we quickly saw that this format of combining user goals with meeting agendas didn't make much sense to Olarkers, so we had to scrap this idea. We ended up deciding to keep the goals accessible and personalizable to users.
+						<div class = "bold">
+							We used this feedback to quickly pivot in the right direction and continued iterating on our designs.
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class = "project-container">
+					<div class = "work-section">
+						<div class = "work-col">
+							<div class = "line">
+						</div> 			007
+						</div>
+						<div class = "work-col">
+							<div class = "bold header">
+								High Fidelity Mockups
+							</div>
+							Feel free to play with our interactive
+							<span class = "bold">
+								 prototype!
+							</div>
+						</div>
+					</div>
+
+					<div class = "full-screen centered">
+							<div>	<img src = "assets/img/bi/final.png"></div>
+					</div>
+
+					<div class = "project-container">
+						<div class = "work-section">
+							<div class = "work-col">
+								<div class = "line">
+							</div> 			008
+							</div>
+							<div class = "work-col">
+								<div class = "bold header">
+									Reflections
+								</div>
+								<div class = "bold">
+									Designing as a Team
+								</div>
+								Prior to joining BI, almost all of my design projects had been self-directed. The majority of my work was done by myself. It was a challenging transition to designing within a group setting. I definitely learned how to better take criticism and iterate as a team with multiple perspectives and stakeholders.
+							</div>
+						</div>
+
+						<div class = "project-container">
+							<div class = "work-section">
+								<div class = "work-col">
+									<div class = "line">
+								</div> 			009
+								</div>
+								<div class = "work-col">
+									<div class = "bold header">
+										Acknowledgements
+									</div>
+									This project was in collaboration with Berkeley students David Aguilar, Kirra Dickinson, and Erika Jin. Thank you to our wonderful mentor, Kathleen Hsu! Additionally, a huge thank you to the incredibly positive and warm folks at Olark for their constant support and feedback throughout our design process. This was my very first semester in Berkeley Innovation, and I am so grateful to have had the opportunity to learn and grow as a designer.
+
+									</div>
+							</div>
+		<div class = "home-footer centered">
+			Life's better in-person&mdash; let's chat!
+			<div class = "project-card-description">
+				yeogyoungkwak@berkeley.edu
+			</div>
+			<div class = "social-buttons centered">
 				<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
-				<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
 				<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
 				<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
 				<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
 			</div>
 		</div>
 
-  </div>
-</div>
+		<script>
 
-	<div class = "top">
-		<div class = "home">
-			<a href = "index.html">
-				Jemma Kwak
-				<div class = "underline underline-yellow"></div>
-			</a>
-		</div>
+		window.onscroll = function() {scrollFunction()};
 
-		<div class = "menu" onclick="openNav()">
-			Menu
-			<div class = "underline underline-yellow"></div>
-		</div>
-	</div>
-
-	<div class = "page-intro">
-		<div class = "medium">
-			Olark x Berkeley Innovation
-		</div>
-		<div class = "project-small-bio">
-			Redesigning the remote feedback system.
-		</div>
-
-		<div class = "meta">
-			2018 - Product Design - Design Thinking
-		</div>
-
-		<a href = "https://www.behance.net/gallery/65240183/Olark">
-		<div class = "process-button">
-			<span class = "button-text">
-				View the Process
-			</span>
-		</div>
-		</a>
-	</div>
-
-	<!-- <div class = "full-image">
-	 <img src = "assets/img/bi/dashboard.png">
- </div> -->
- <div class = "marvel">
- <iframe style="border: none;" "transform: scale(0.5)" width="100%" height="84%"
- src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/KZ0rPTimomM6NZ8illLOEpJ0/Olark-High-Fidelity-Mockup?scaling=scale-down&node-id=2%3A16	"
- allowfullscreen></iframe>
-</div>
-
-	<div class = "page-container">
-		<div class = "header">
-			Introduction
-		</div>
-		<div class = "project-text">
-			Through Berkeley Innovation in the Spring 2018 semester,
-			I worked on a redesign of Olark's internal employee feedback system.
-			I worked with
-			<a class = "blue" href = "https://www.linkedin.com/in/ddaguilar/">
-				David Aguilar
-				<div class = "underline underline-blue"></div>
-			</a>,
-			<a class = "blue" href = "https://www.linkedin.com/in/kirradickinson/">
-				Kirra Dickinson
-				<div class = "underline underline-blue"></div>
-			</a>, and
-			<a class = "blue" href = "https://www.linkedin.com/in/erikajin/">
-				Erika Jin
-				<div class = "underline underline-blue"></div>
-			</a>  on this project. We were mentored by
-			<a class = "blue" href = "https://kathleenhsu.com/">
-				Kathleen Hsu
-				<div class = "underline underline-blue"></div>
-			</a>.
-
-			<br><br>
-			<a class = "blue" href = "https://olark.com/">
-				Olark
-				<div class = "underline underline-blue"></div>
-			</a> is a live chat software system aimed at making businesses human again by supporting
-			their client’s live chats with sales, marketing, and customer support. The caveat?
-			They all work remotely! Our team collaborated with Olark’s Director of People Ops and Director
-			of Product Design to redesign their feedback evaluation system.
-			 <div class = "header">
-	 			The Problem
-	 		</div>
-			Previously, the evaluation process occured on an annual basis.
-			Their Google Form format was reported to be lengthy, tedious, and cumbersome.
-			In a remote-first work setting, <span class = "strong">how do employees accurately gauge their work performance from their team members and manager? </span>
-			<div class = "header">
-			 Opportunity Areas
-		 </div>
-		 The scope of the project was to explore the needs of Olark employees in order
-		  to design an evaluation system that would elicit constructive feedback in a seamless manner.
-			 Areas we wanted to investigate: frequency of feedback, questions to include, and medium for giving and receiving feedback.
-			 <div class = "header">
- 			 User Research
- 		 </div>
-		 We conducted extensive research in order to better understand the experiences and needs of
-		 Olark’s employees by engaging in a variety of research methods:
-		 <ol>
-			<li>
-				<div class = "strong">Desktop Research</div> - We familiarized ourselves with best practices
-				regarding feedback design. We explored systems of feedback from other remote-based companies.
-			</li>
-			<li>
-				<div class = "strong">Internal Interviews</div> - We conducted internal interviews with 12 Olark employees to
-				better understand their experiences within the company and filling out evaluations.
-			</li>
-			<li>
-				<div class = "strong">External Interviews</div> 	- To gain further insights into remote working conditions,
-				we interviewed three employees from different remote companies.
-			</li>
-		 </ol>
-		 <div class = "page-image">
-			<img src = "assets/img/bi/research.png">
-			<div class = "grid-caption">
-				Whiteboarding high-level insights with my team.
-			</div>
-		</div>
-
-		 <div class = "header">Research Insights</div>
-		 <div class = "strong">Key Insights</div>
-		 <ul>
-			<li>
-				Olark’s company culture can sometimes feel overly positive, which hinders the ability to receive actionable, constructive feedback.
-			</li>
-			<li>
-				Due to the evaluation’s annual timing, peers don’t often know what to comment in addition to running into recency bias.
-			</li>
-		 </ul>
-
-		 <div class = "strong">User Pain Points</div>
-		 <ul>
-			<li>
-				Difficult to give feedback to peers outside of this annual evaluation form.
-			</li>
-			<li>
-				Process of consolidating feedback for managers is heavy-weight and time-consuming.
-			</li>
-			<li>
-				Many Olarkers do not reflect upon their feedback and lack actionable next steps to implement growth opportunity areas.
-			</li>
-		 </ul>
-		 <div class = "page-image">
-			<img src = "assets/img/bi/grouping.png">
-			<div class = "grid-caption">
-				My team members and I consolidating and grouping user research.
-			</div>
-		</div>
-
-	 <div class = "header">Identifying Key User Needs</div>
-			 We then identified three key needs of Olark employees that we wanted to make sure to address in our solution.
-
-			 <ol>
-				<li>
-					<span class = "strong">Achievement</span> - Olarkers need to feel accomplished and look back at the end of the day and be proud of and happy with their work.
-				</li>
-				<li>
-					<span class = "strong">Progress + Personal Development</span> - Olarkers want to know that they’re improving as employees and are on the right track for what’s next.
-				</li>
-				<li>
-					<span class = "strong">Affiliation</span> - Olarkers thrive on a sense of belonging to the company and others.
-				</li>
-			 </ol>
-
-			 <div class = "header">Defining User Personas</div>
-			 <div class = "page-image">
-				<img src = "assets/img/bi/personas.png">
-				<div class = "grid-caption">
-					Three consolidated user personas.
-				</div>
-			</div>
-				<div class = "header">Journey Mapping</div>
-				In order to best design for the needs of multiple employees, we created a journey map to
-				visualize the feedback journey from start to finish. We noted the actions employees might take,
-				emotions that might arise, and pain points.
-				<div class = "page-image">
- 				<img src = "assets/img/bi/journey-mapping.png">
- 				<div class = "grid-caption">
- 					Journey mapping the current user experience.
- 				</div>
-			</div>
-				<div class = "header">Low Fidelity Sketches</div>
-				<div class = "strong">Objective</div>
-				Brainstorm ideas for a new evaluation system that address the key needs of Olark’s employees
-			<div class = "strong">Methods</div>
-						Rapid ideation session, Figure 8
-
-			<div class = "strong">Initial Ideas</div>
-				<ul>
-					<li>
-						Creating a feedback dashboard
-					</li>
-					<li>
-						Channels to promote frequent feedback
-					</li>
-					<li>
-						Forms to create actionable plans
-					</li>
-				</ul>
-				<div class = "page-image">
- 				<img src = "assets/img/bi/sketches.png">
- 				<div class = "grid-caption">
- 					Low-fidelity sketches and rapid ideation.
- 				</div>
-			</div>
-			<div class = "header">Mid Fidelity Prototyping</div>
-			<div class = "strong">Objective</div>
-			Create a dashboard for Olarks evaluation system that would address their three key needs
-			<div class = "strong">Goals</div>
-			<ul>
-				<li>
-					Site architecture
-				</li>
-				<li>
-					Content and copywriting
-				</li>
-				<li>
-					Dashboard design and layout
-				</li>
-			</ul>
-			<div class = "page-image">
-			 <img src = "assets/img/bi/mid.png">
-			 <div class = "grid-caption">
-				 Mid-fidelity mockups.
-			 </div>
-		 </div>
-
-		 <div class = "header">
-				Usability Testing
-		</div>
-		Throughout usability testing, a few key roadblocks became apparent:
-		<ul>
-			<li>
-				<div class = "strong">Unclear Expectations</div>Employees had trouble understanding why they had to complete an action. How was this relevant and how would it help them?
-			</li>
-			<li>
-				<div class = "strong">Question Format</div>Our initial assumption was that Olarkers wanted solely
-				free response questions. However, we learned that this was hard to quantify when compiling the data or looking at trends over time.
-
-			</li>
-			<li>
-				<div class = "strong">Confusing Use Cases</div>
-				We initially dedicated a huge portion of our prototype to a concept that incorporated meeting agendas with user goals. However, as we
-				progressed through our user testing, we quickly saw that this format of combining user goals with meeting agendas didn't make
-				much sense to Olarkers, so we had to scrap this idea. We ended up deciding to keep the goals accessible and personalizable to users.
-			</li>
-		</ul>
-		We used this feedback to quickly pivot in the right direction and continued iterating on our designs.
-
-		<div class = "header">
-			High Fidelity Mockups
-	 </div>
- </div>
- </div>
-
- <div class = "full-image">
-	<img src = "assets/img/bi/final.png">
- </div>
- <div class = "page-container">
-
-
- <div class = "project-text">
-	 Feel free to play with our
-
-	 <a class = "blue" href = "http://tinyurl.com/olark-BI-prototype">
-		 interactive prototype
-		 <div class = "underline underline-blue"></div>
-	 </a>!
-		<div class = "header">
-			Reflections
-	 </div>
-	 <div class = "strong">
-		Designing as a Team
-	 </div>
-	 Prior to joining BI, all of my design projects had been self-directed. The majority of my work was done by myself. It was a challenging transition to designing within a group setting. I definitely learned how to better take criticism and iterate as a team with multiple views and stakeholders.
-
-
-		 <div class = "header">
-			 	Acknowledgements
-		 </div>
-		 This project was in collaboration with Berkeley students David Aguilar, Kirra Dickinson, and Erika Jin. Thank you to our
-		 wonderful mentor, Kathleen Hsu! Additionally, a huge thank you to the incredibly positive and warm folks at Olark for their
-		 constant support and feedback throughout our design process. This was my very first semester in
-		 Berkeley Innovation,
-		 and I am so grateful to have had the opportunity to learn and grow as a designer.
-
-
-
-			<!-- START ACTION NEXT PROJECT -->
-
-			<div class = "action">
-				Up Next
-				<div class = "action-title">
-				 ASUC OCTO
-				</div>
-				<a href = "octo.html"><img src =  "assets/img/octo/smolocto.png"></a>
-			</div>
-		</div>
-	</div>
-
-	<div class = "global-footer">
-		&copy Jemma Kwak 2018
-	</div>
-	<script>
-		function openNav() {
-		    document.getElementById("myNav").style.width = "100%";
+	function scrollFunction() {
+			if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+					document.getElementById("myBtn").style.opacity = "1";
+			} else {
+					document.getElementById("myBtn").style.opacity = "0";
+			}
 		}
+		function topFunction() {
 
-		function closeNav() {
-		    document.getElementById("myNav").style.width = "0%";
+			var target = $('#hi');
+			if (target.length) {
+					var top = target.offset().top;
+					$('html,body').animate({scrollTop: top}, 500);
+					return false;
+			}
 	}
-	</script>
+
+		</script>
 
 	<script src="assets/js/jquery.waypoints.min.js"></script>
 	<script src="assets/js/waypoints.js"></script>

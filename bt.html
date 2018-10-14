@@ -20,120 +20,102 @@
 </head>
 <body>
 
-	<div id="myNav" class="overlay">
-		<div class = "button-holder">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id = "hi"></div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<div id = "top">
+			&#9757;
+		</div>
+	</button>
+
+<header>
+	<a href = "index.html" class = "logo">
+		<img style ="width:32px" src = "assets/img/me.png" />
+	</a>
+
+	<nav>
+		<span class = "about">
+			<a href = "assets/resume.pdf">Resume</a>
+		</span>
+
+		<span class = "about">
+			<a href = "about.html">About</a>
+		</span>
+	</nav>
+</header>
+
+		<div class = "behind">
+			<img class = "background-img"src = "assets/img/bt/preview.png" />
 		</div>
 
 
-
-  <div class="overlay-content">
-		<div class = "left-menu">
-
-			<!-- Menu Description -->
-			<div class = "menu-item" id = "menu-description">
-				Currently based in beautiful Berkeley, California. Listening to some <a class = "beats" href ="https://www.youtube.com/watch?v=I1AmkMuB0pA">beats</a>.
+	<div class = "project-container">
+		<div class = "project-intro">
+			<div class = "project-title bold centered">
+				BerkeleyTime
 			</div>
 
-			<!-- WORK -->
-
-			<div id = "bcourses" class ="menu-item" >
-				<a href = "index.html" class = "menu-a" id="gray" class = "thick">Work</a>
-			</div>
-
-			<!-- ABOUT -->
-
-			<div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "about.html" class = "menu-a" id="gray">About</a>
-			</div>
-
-			<!-- EC -->
-
-			<!-- <div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "" class = "menu-a" id="gray">Extra Credit</a>
-			</div> -->
-
-			<!-- Footer -->
-			<div class = "footer">
-				<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
-				<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
-				<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
-				<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
-				<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
+			<div class = "project-description medium centered">
+				Redesigning Berkeley's online course catalog.
 			</div>
 		</div>
 
-  </div>
-</div>
+		<div class = "work-section">
+			<div class = "work-col">
+				Background
+			</div>
 
-	<div class = "top">
-		<div class = "home">
-			<a href = "index.html">
-				Jemma Kwak
-				<div class = "underline underline-yellow"></div>
-			</a>
-		</div>
+			<div class = "work-col">
+				<div class = "bold header">
+					Summary
+				</div>
+				BerkeleyTime is Berkeley's online course catalog. Under the ASUC Office of the Chief Technology Officer, our web application serves to provide easy-access to course information, real-time enrollment data, and grade distribution visualizations. </span>
 
-		<div class = "menu" onclick="openNav()">
-			Menu
-			<div class = "underline underline-yellow"></div>
+			</div>
 		</div>
 	</div>
 
-	<div class = "page-intro">
-		<div class = "medium">
-			BerkeleyTime Redesign
-		</div>
-		<div class = "project-small-bio">
-			Redesigning Berkeley's online course catalog.
-		</div>
-
-		<div class = "meta">
-			2017-2018 - Product Design - Design Thinking
-		</div>
-	</div>
-	<div class = "page-image">
-	 <img src = "assets/img/bt/preview.png">
- </div>
-
-	<div class = "page-container">
-		<div class = "page-content">
-		<div class = "header">
-			Introduction
-		</div>
-		<div class = "project-text">
-			BerkeleyTime is Berkeley's online course catalog. Under the ASUC Office of the Chief Technology Officer,
-			our web application serves to provide easy-access to course information, real-time enrollment data,
-			and grade distribution visualizations.
-		</div>
-
-		<div class = "header">
-			Although the designs have not been officially pushed, I am happy to talk about my design process.
-			Feel free to reach out!
-		</div>
-		<div class = "action">
-			Up Next
-			<div class = "action-title">
-			 Berkeley Innovation x Olark
-			</div>
-			<a href = "bi.html"><img src =  "assets/img/smolbi.png"></a>
-		</div>
+	<div class = "bold centered full-screen quote">
+		<div class = "quote centered">
+				This project is currently in-progress. I am happy to talk about my design process— feel free to reach out!
+				I'll get back to you ASAP.
 		</div>
 	</div>
 
-	<div class = "global-footer">
-		&copy Jemma Kwak 2018
+	<div class = "home-footer centered">
+		Life's better in-person&mdash; let's chat!
+		<div class = "project-card-description">
+			yeogyoungkwak@berkeley.edu
+		</div>
+		<div class = "social-buttons centered">
+			<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
+			<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
+			<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
+			<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
+		</div>
 	</div>
+
 	<script>
-		function openNav() {
-		    document.getElementById("myNav").style.width = "100%";
+
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+				document.getElementById("myBtn").style.opacity = "1";
+		} else {
+				document.getElementById("myBtn").style.opacity = "0";
 		}
-
-		function closeNav() {
-		    document.getElementById("myNav").style.width = "0%";
 	}
-	</script>
+	function topFunction() {
 
+		var target = $('#hi');
+		if (target.length) {
+				var top = target.offset().top;
+				$('html,body').animate({scrollTop: top}, 500);
+				return false;
+		}
+}
+
+	</script>
 	<script src="assets/js/jquery.waypoints.min.js"></script>
 	<script src="assets/js/waypoints.js"></script>
 </body>

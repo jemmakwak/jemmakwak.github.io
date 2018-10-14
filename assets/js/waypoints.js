@@ -1,69 +1,91 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-  if ($(window).width() > 750) {
-      var $top = $('.top');
-      $top.waypoint(function() {
-        $top.addClass('animate-in');
-      }, {offset: '50%'});
+  var behind = $('.behind').waypoint(function(direction) {
+  //check the direction
+      //add the class to start the animation
+      $(this.element).addClass('fadeIn-delay');
+      //then destroy this waypoint, we don't need it anymore
+      this.destroy();
+    }, {
+    //Set the offset
+    offset: '70%'
+  });
 
-      var $projContainer = $('.projects-container');
-      $projContainer.waypoint(function(direction) {
-        if (direction == 'down') {
-          $projContainer.addClass('animate-in');
-        } else {
-          $projContainer.removeClass('animate-in');
-        }
-      }, {offset: '90%'});
+  var work = $('.work-section').waypoint(function(direction) {
+  //check the direction
+      //add the class to start the animation
+      $(this.element).addClass('fadeIn-delay');
+      //then destroy this waypoint, we don't need it anymore
+      this.destroy();
+    }, {
+    //Set the offset
+    offset: '70%'
+  });
 
-      var $landingintro = $('.landing-intro');
-      $landingintro.waypoint(function() {
-        $landingintro.addClass('animate-in');
-      }, {offset: '50%'});
+    var midPics = $('.mid-screen').waypoint(function(direction) {
+    //check the direction
+      if(direction == 'down') {
+        //add the class to start the animation
+        $(this.element).addClass('fadeIn-delay');
+        //then destroy this waypoint, we don't need it anymore
+        this.destroy();
+      }
+      }, {
+      //Set the offset
+      offset: '70%'
+    });
 
-      var $pageintro = $('.page-intro');
-      $pageintro.waypoint(function() {
-        $pageintro.addClass('animate-in');
-      }, {offset: '50%'});
 
+    var fullPics = $('.full-screen').waypoint(function(direction) {
+    //check the direction
+      if(direction == 'down') {
+        //add the class to start the animation
+        $(this.element).addClass('fadeIn-delay');
+        //then destroy this waypoint, we don't need it anymore
+        this.destroy();
+      }
+      }, {
+      //Set the offset
+      offset: '70%'
+    });
 
-      var $intro = $('.intro');
-      $intro.waypoint(function() {
-        $intro.addClass('fadeIn-delay');
-      }, {offset: '50%'});
+    var proj = $('.project').waypoint(function(direction) {
+      if (direction == 'down') {
+        $(this.element).addClass('pop-in opaque');
+        this.destroy();
+      }
+    }, {
+        offset: '60%'
+    });
 
-      var $container = $('.container');
-      $container.waypoint(function() {
-        $container.addClass('animate-in');
-      }, {offset: '50%'});
+    var $intro = $('.intro');
+    $intro.waypoint(function() {
+      $intro.addClass('fadeIn-delay');
+    }, {offset: '50%'});
 
-      var $description = $('.description');
-      $description.waypoint(function() {
-        $description.addClass('animate-in');
-      }, {offset: '60%'});
+    var $pIntro = $('.project-intro');
+    $pIntro.waypoint(function() {
+      $pIntro.addClass('fadeIn-delay');
+    }, {offset: '70%'});
 
-      // $(".page-image").click(function() {
-      //   console.log("pic selected");
-      //   $(this).addClass("enlarge");
-      //   $(".pic-overlay").show();
-      //   $(this).removeClass(".page-image");
-      // })
-      //
-      // $(".pic-overlay").click(function() {
-      //   console.log("remove everything");
-      //   $(".page-image").removeClass("enlarge");
-      //   $(this).css("display", "none");
-      //   $(this).addClass(".page-image");
-      //
-      // })
+    var $header = $('header');
+    $header.waypoint(function() {
+      $header.addClass('fadeFromTop');
+    }, {offset: '50%'});
 
-  } else {
-    $(".page-intro").css("opacity", "1");
-    $(".landing-intro").css("opacity", "1");
-    $(".top").css("opacity", "1");
-    $(".projects-container").css("opacity", "1");
-    $(".intro").css("opacity", "1");
-    $(".container").css("opacity", "1");
-    $(".description").css("opacity", "1");
-  }
+    var $footer = $('.home-footer');
+    $footer.waypoint(function() {
+      $footer.addClass('fadeIn-slower');
+    }, {offset: '90%'});
+
+    var $profile = $('.profile');
+    $profile.waypoint(function() {
+      $profile.addClass('fadeIn-delay');
+    }, {offset: '50%'});
+
+    var $aboutme = $('.about-me');
+    $aboutme.waypoint(function() {
+      $aboutme.addClass('fadeIn-delay');
+    }, {offset: '50%'});
 
 });

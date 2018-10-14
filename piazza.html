@@ -20,253 +20,324 @@
 </head>
 <body>
 
-	<div id="myNav" class="overlay">
-		<div class = "button-holder">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div id = "hi"></div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<div id = "top">
+			&#9757;
+		</div>
+	</button>
+
+<header>
+	<a href = "index.html" class = "logo">
+		<img style ="width:32px" src = "assets/img/me.png" />
+	</a>
+
+	<nav>
+		<span class = "about">
+			<a href = "assets/resume.pdf">Resume</a>
+		</span>
+
+		<span class = "about">
+			<a href = "about.html">About</a>
+		</span>
+	</nav>
+</header>
+
+		<div class = "behind">
+			<img class = "background-img"src = "assets/img/piazza/preview.png" />
 		</div>
 
 
-
-  <div class="overlay-content">
-		<div class = "left-menu">
-
-			<!-- Menu Description -->
-			<div class = "menu-item" id = "menu-description">
-				Currently based in beautiful Berkeley, California. Listening to some <a class = "beats" href ="https://www.youtube.com/watch?v=I1AmkMuB0pA">beats</a>.
+	<div class = "project-container">
+		<div class = "project-intro">
+			<div class = "project-title bold centered">
+				Piazza Redesign
 			</div>
 
-			<!-- WORK -->
-
-			<div id = "bcourses" class ="menu-item" >
-				<a href = "index.html" class = "menu-a" id="gray" class = "thick">Work</a>
-			</div>
-
-			<!-- ABOUT -->
-
-			<div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "about.html" class = "menu-a" id="gray">About</a>
-			</div>
-
-			<!-- EC -->
-
-			<!-- <div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "" class = "menu-a" id="gray">Extra Credit</a>
-			</div> -->
-
-			<!-- Footer -->
-			<div class = "footer">
-				<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
-				<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
-				<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
-				<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
-				<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
+			<div class = "project-description medium centered">
+				A mobile redesign of the classroom discussion forum.
 			</div>
 		</div>
 
-  </div>
-</div>
+		<div class = "work-section">
+			<div class = "work-col">
+				Background
+			</div>
 
-	<div class = "top">
-		<div class = "home">
-			<a href = "index.html">
-				Jemma Kwak
-				<div class = "underline underline-yellow"></div>
-			</a>
+			<div class = "work-col">
+				<div class = "bold header">
+					Piazza is an online discussion and Q&A forum used by schools, specifically by STEM classes in universities.
+				</div>
+				It serves as the main mode of communication between students and instructors. Students use the platform to ask questions about topics ranging anywhere from course material to general course logistics.
+			</div>
 		</div>
 
-		<div class = "menu" onclick="openNav()">
-			Menu
-			<div class = "underline underline-yellow"></div>
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 001
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					The Problem
+				</div>
+				As someone who has used Piazza as a student and instructor, I understood many of the usability issues and disappointing user interface from both ends.
+				<br /><br />
+
+				 One of the key features that make Piazza so useful is its ability to make the classroom feel smaller by connecting students directly with the teaching staff. For students enrolled in huge classes at Berkeley(professors have asked for students not to come to physical lecture and, instead, watch online webcast videos), Piazza is a refuge where both parties—students and teachers—get to ask and answer questions on their own time. Unfortunately, the organization of the application is confusing, jumbled, and frustrating to use.
+
+			</div>
 		</div>
 	</div>
 
-	<div class = "page-intro">
-		<div class = "medium">
-			Piazza Redesign
-		</div>
-		<div class = "project-small-bio">
-			A mobile redesign challenge of the classroom discussion forum.
-		</div>
-
-		<div class = "meta">
-			2018 - Product Design - Design Thinking - Mobile UI/UX
-		</div>
-
-		<a href = "assets/img/piazza/process.pdf">
-		<div class = "process-button">
-			<span class = "button-text">
-				Process Deck
-			</span>
-		</div>
-		</a>
-
+	<div class = "full-screen centered">
+			<div>	<img src = "assets/img/piazza/rn.png"></div>
+			<div class = "caption">
+				Current screen views of Piazza, on mobile.
+			</div>
 	</div>
 
-	<div class = "page-container">
-		<div class = "header">
-			Background
-		</div>
-		<div class = "project-text">
-			<a class = "blue" href = "https://piazza.com/">
-				Piazza
-				<div class = "underline underline-blue"></div>
-			</a>
-			is an online discussion and Q&amp;A forum used by schools.
-				 Classes at UC Berkeley use Piazza as the main mode of communication between students and
-				 instructors. Students use the platform to ask questions about topics ranging anywhere from
-				 course material to general course logistics, to declarations of gratitude and happiness at
-					3am after finishing a particularly difficult project(See
-				 <a href = "assets/img/piazza/lol.png" class = "blue">gitlet
-					 <div class = "underline underline-blue">
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
 
-					 </div>
-				 </a>).
-				 <div class = "header">
-					 The Problem
-				 </div>
-				 <div class = "page-image">
-	 				<img src = "assets/img/piazza/old1.png">
-	 			</div>
-	 			As someone who has used Piazza as a student and instructor, I understood many of the usability issues and disappointing user interface from both ends. One of the key features that make Piazza so useful is its ability to make the classroom feel smaller by connecting students directly with the teaching staff. For students enrolled in huge classes at Berkeley(professors have asked for students not to come to physical lecture and, instead, watch online webcast videos), Piazza is a refuge where both parties—students and teachers—get to ask and answer questions on their own time. Unfortunately, the organization of the application is confusing, jumbled, and frustrating to use.
-	 			<br><br>
-				<div class = "page-image">
-				 <img src = "assets/img/piazza/current.png">
-			 </div>
-	 			After conducting user research on the current use of the app, I concluded that
-	 			the biggest areas for improvement would be the organization of posts, flow of answering
-	 			questions(particularly in threads), emphasis of existing key features, and the sense of a classroom feeling.
-	 		 <br><br>
-	 		 I also saw a huge opportunity to give the user interface a much-needed facelift
-	 		 that could bring Piazza into the present with a modern look and feel.
-
-			 <div class = "header">
-				 Design Goals
-			 </div>
-			 After some user research, I consolidated the main pain points I felt necessary to address with the redesign.
-
-			 <div class = "four-grid">
-				 <div class = "grid-item">
-					<div class = "grid-header">
-						<i class="fa fa-folder-open socials"></i> Categorization of Posts
-					</div>
-					<div class = "grid-item-description">
-						There is currently no organization
-						to the mass amount of questions. Students must
-						be exact when searching for a post that can often be buried during high traffic times, such
-						as project and homework deadlines.
-					</div>
-				 </div>
-
-				 <div class = "grid-item">
-					<div class = "grid-header">
-						<i class="fa fa-thumbs-up socials"></i> Validation Metric
-					</div>
-					<div class = "grid-item-description">
-						 One of the current action items for a user is to “Good Question” or “Good Note” a post.
-						 I decided to generalize the system into “likes.”
-						  The “Most Popular” posts are intuitively the ones with the most likes.
-					</div>
-				 </div>
-
-				 <div class = "grid-item">
-					<div class = "grid-header">
-						<i class="fa fa-smile-o socials"></i> Classroom Feeling
-					</div>
-					<div class = "grid-item-description">
-						Piazza's current design does not lend itself
-		 			 to an incredibly social environment. I hoped in emphasizing both students’ and teachers’
-		 			  identities would a more social, relaxed
-		 				user experience for all parties.
-					</div>
-				 </div>
-
-				 <div class = "grid-item">
-					<div class = "grid-header">
-						<i class="fa fa-sitemap socials"></i> Organization of Threads
-					</div>
-					<div class = "grid-item-description">
-						Many questions turn into lengthy discussions with the “Followup” feature.
-		 			 With the feature of anonymity in followups, it is unclear who is talking to who when the threads become long, despite
-						the importance of the feature.
-							<div class = "underline underline-blue">
-							</div>
-						</a>
-					</div>
-				 </div>
-			 </div>
-
-			 <div class = "header">
-				Mid Fidelity Mockups
-			 </div>
-
-			 <div class = "page-image">
-				<img src = "assets/img/piazza/midfi.png">
 			</div>
 
-			 <div class = "header">
-				Final Mockups
-			 </div>
-
-			 <div class = "page-image">
-				<img src = "assets/img/piazza/total.png">
+			<div class = "work-col">
+				After conducting user research on the current use of the app, I concluded that the biggest areas for improvement would be the organization of posts, flow of answering questions(particularly in threads), emphasis of existing key features, and the sense of a classroom feeling.
+				<br /><br />
+				I also saw a huge opportunity to give the user interface a much-needed facelift that could bring Piazza into the present with a modern look and feel.
 			</div>
-
-			<div class = "header">
-			 Interactions
-			</div>
-
-			<div class = "page-image">
-			 <img src = "assets/img/piazza/interaction1.gif">
-		 </div>
-
-		 <div class = "page-image">
-			<img src = "assets/img/piazza/interaction2.gif">
-		</div>
-
-		<div class = "header">
-			Takewaways and Reflections
-		</div>
-
-		This was my first serious mobile redesign. If I were to do things differently,
-		I would have definitely started with a style guide. I had been unfamiliar with the grid system
-		at the time and did not incorporate specific step sizes into my designs.
-
-		<br><br>
-
-		Additionally, I didn't utilize the Assets palette in Adobe Xd, which made any necessary changes
-		to a single, repeated component very tedious.
-
-		<br><br>
-
-		Piazza is truthfully one of the most utilized, free tools at Berkeley. By improving
-		the accessibility and usability of such an important academic resource, we can improve
-		the overall experience for both the student and the instructors.
-
-		I truly hope Piazza is able to see the importance of user flow, a and ultimately,
-		 move the application in the direction where students feel excited to use it.
-		 <div class = "action">
-			 Up Next
-			 <div class = "action-title">
-				BerkeleyTime
-			 </div>
-			 <a href = "bt.html"><img src =  "assets/img/bt/preview.png"></a>
-		 </div>
-
 		</div>
 	</div>
 
-	<div class = "global-footer">
-		&copy Jemma Kwak 2018
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 002
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Design Goals
+				</div>
+					<div class = "bold">Categorization of Posts</div>
+					There is currently no organization to the mass amount of questions. Students must be exact when searching for a post that can often be buried during high traffic times, such as project and homework deadlines.
+					<div class = "bold">Validation Metric</div>
+					One of the current action items for a user is to “Good Question” or “Good Note” a post. I decided to generalize the system into “likes.” The “Most Popular” posts are intuitively the ones with the most likes.
+					<div class = "bold">Classroom Feeling</div>
+					Piazza's current design does not lend itself to an incredibly social environment. I hoped in emphasizing both students’ and teachers’ identities would a more social, relaxed user experience for all parties.
+					<div class = "bold">Thread Organization</div>
+					Many questions turn into lengthy discussions with the “Followup” feature. With the feature of anonymity in followups, it is unclear who is talking to who when the threads become long, despite the importance of the feature.
+			</div>
+		</div>
 	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div>003
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Flows
+				</div>
+				I started first by tackling what was said to be a tedious flow for one of the most important actions— <span class = "bold">asking a question.</span>
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/piazza/old-flow.png"></div>
+			<div class = "caption">
+				Old user flow for asking a question.
+			</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/piazza/new-flow.png"></div>
+			<div class = "caption">
+				New, redesigned user flow.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div>004
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Mid Fidelity Mocks
+				</div>
+				I started first by tackling what was said to be a tedious flow for one of the most important actions— <span class = "bold">asking a question.</span>
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/piazza/landing.png"></div>
+			<div class = "caption">
+				Redesigned Landing
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Design Justifications
+				</div>
+				<ol>
+					<li>
+						<div class = "bold">
+							Category Headers
+						</div>
+						A level of organization given to posts: newest, popular, pinned, and following.
+					</li>
+					<li>
+						<div class = "bold">
+							Easy-Access Follow
+						</div>
+						Users can quickly follow a question when a user feels connected to a post.
+					</li>
+					<li>
+						<div class = "bold">
+							Easy "Like"
+						</div>
+						The ability to let the student “like” a post when they feel related to it.
+					</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<div class = "full-screen centered">
+			<div>	<img src = "assets/img/piazza/mid-final.png"></div>
+			<div class = "caption">
+				Redesigned mid-fidelity screens.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div>005
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					High Fidelity Mocks
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "three-grid centered">
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/ask.gif">
+				<div class = "caption centered">
+					Asking a question.
+				</div>
+			</div>
+
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/answer.gif">
+				<div class = "caption centered">
+					Answering a question.
+				</div>
+			</div>
+
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/follow.gif">
+				<div class = "caption centered">
+					Following a question.
+				</div>
+			</div>
+	</div>
+
+	<div class = "three-grid centered">
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/endorse.gif">
+				<div class = "caption centered">
+					Endorsing a question (available only for staff of the course)
+				</div>
+			</div>
+
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/thread.gif">
+				<div class = "caption centered">
+					Creating a thread.
+				</div>
+			</div>
+
+			<div class = "three-grid-item">
+				<img class = "shadow" src = "assets/img/piazza/tabs.gif">
+				<div class = "caption centered">
+					Category tabs.
+				</div>
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div>006
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Reflection
+				</div>
+				Piazza is truthfully one of the most utilized, free tools at Berkeley. By improving the accessibility and usability of such an important academic resource, we can improve the overall experience for both the student and the instructors. I truly hope Piazza is able to see the importance of user flow, and ultimately, move the application in the direction where students feel excited to use it.
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class = "home-footer centered">
+		Life's better in-person&mdash; let's chat!
+		<div class = "project-card-description">
+			yeogyoungkwak@berkeley.edu
+		</div>
+		<div class = "social-buttons centered">
+			<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
+			<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
+			<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
+			<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
+		</div>
+	</div>
+
 	<script>
-		function openNav() {
-		    document.getElementById("myNav").style.width = "100%";
-		}
 
-		function closeNav() {
-		    document.getElementById("myNav").style.width = "0%";
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+				document.getElementById("myBtn").style.opacity = "1";
+		} else {
+				document.getElementById("myBtn").style.opacity = "0";
+		}
 	}
+	function topFunction() {
+
+		var target = $('#hi');
+		if (target.length) {
+				var top = target.offset().top;
+				$('html,body').animate({scrollTop: top}, 500);
+				return false;
+		}
+}
+
 	</script>
+
 
 	<script src="assets/js/jquery.waypoints.min.js"></script>
 	<script src="assets/js/waypoints.js"></script>

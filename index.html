@@ -1,6 +1,6 @@
 <html>
 
-<!-- Created by Jemma Kwak -->
+<!-- Designed and developed by Jemma Kwak :-) This is NOT a template, for those of you wondering :)  -->
 
 <head>
 	<title>Jemma Kwak</title>
@@ -18,269 +18,169 @@
 	rel="stylesheet"  type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="assets/js/waypoints.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-	<div id="myNav" class="overlay">
-		<div class = "button-holder">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<header>
+		<a href = "index.html" class = "logo">
+			<img style ="width:32px" src = "assets/img/me.png" />
+		</a>
+
+		<nav>
+			<span class = "about">
+				<a href = "assets/resume.pdf">Resume</a>
+			</span>
+
+			<span class = "about">
+				<a href = "about.html">About</a>
+			</span>
+		</nav>
+	</header>
+
+
+	<div class = "intro">
+		<div class = "hello-emoji">
+			&#128075;
 		</div>
+		<!-- <br> -->
+		Hello! I&#39;m <span class = "bold">Jemma</span>. Product designer, third-year undergrad <a href = "https://berkeley.edu" class = "intro-a" id = "cal">@UC Berkeley</a>, and
+		previous experience design intern <a href = "https://adobe.com" class = "intro-a" id = "adobe">@Adobe</a>.
 
-
-
-  <div class="overlay-content">
-		<div class = "left-menu">
-
-			<!-- Menu Description -->
-			<div class = "menu-item" id = "menu-description">
-				Currently based in beautiful Berkeley, California. Listening to some <a class = "beats" href ="https://www.youtube.com/watch?v=I1AmkMuB0pA">beats</a>.
-			</div>
-
-			<!-- WORK -->
-
-			<div id = "bcourses" class ="menu-item" >
-				<a href = "index.html" class = "menu-a" id="gray" class = "thick">Work</a>
-			</div>
-
-			<!-- ABOUT -->
-
-			<div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "about.html" class = "menu-a" id="gray">About</a>
-			</div>
-
-			<!-- EC -->
-
-			<!-- <div id = "bcourses" class ="menu-item" class = "thick">
-				<a href = "" class = "menu-a" id="gray">Extra Credit</a>
-			</div> -->
-
-			<!-- Footer -->
-			<div class = "footer">
-				<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
-				<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
-				<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
-				<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
-				<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
-			</div>
-		</div>
-
-  </div>
-</div>
-
-	<div class = "top">
-		<div class = "home">
-			<a href = "index.html">
-				Jemma Kwak
-				<div class = "underline underline-yellow"></div>
-			</a>
-		</div>
-
-		<div class = "menu" onclick="openNav()">
-			Menu
-			<div class = "underline underline-yellow"></div>
+		<div id = "down"class = "hello-emoji margin-top">
+			&#128071;
 		</div>
 	</div>
 
-	<div class = "landing-intro">
-		<div class = "small-bio">
-			<div class = "big">
-				<p>Hello, I&#39;m Jemma!<span>&#128075;</span></div>  I&#39;m a passionate product designer and
-			 rising third year studying psychology at
-				 <a href = "" class = "menu-a" id="cal">UC Berkeley</a>. Previously a product design intern at
-			<a class = "menu-a" id="adobe" href = "https://www.adobe.com/">Adobe</a>.
-			 I strive to create meaningful, interactive experiences. Learn more
-			 <a class = "menu-a" id = "about-me" href = "about.html">
-				 about me. &#8594;
-			 </a>
-		 </p>
+ 	<!-- Project (Offset Grid Style) -->
+	<div class = "project-grid centered">
+		<div class = "left-column centered">
+
+			<div class = "project adobe centered">
+				<a href = "adobe.html">
+				<div class = "project-img">
+					<img src = "assets/img/adobe/d.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					Adobe Lightroom
+				</div>
+				<div class = "project-card-description">
+					Summer 2018 Internship
+				</div>
+			</div>
+			<div class = "project adobe centered">
+				<a href = "bi.html">
+				<div class = "project-img">
+					<img src = "assets/img/bi/preview.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					Olark Feedback System
+				</div>
+
+				<div class = "project-card-description">
+					Design Consulting @ Berkeley Innovation
+				</div>
+			</div>
+
+			<div class = "project adobe centered">
+				<a href = "wdd.html">
+				<div class = "project-img">
+					<img src = "assets/img/wdd.jpg" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					Web Design DeCal
+				</div>
+
+				<div class = "project-card-description">
+					Teaching Design + Development @ Cal
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class = "right-column centered">
+
+			<div class = "project adobe centered">
+				<a href = "bcourses.html">
+				<div class = "project-img">
+					<img src = "assets/img/bcourses/preview.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					bCourses Redesign
+				</div>
+
+				<div class = "project-card-description">
+					Personal Project
+				</div>
+			</div>
+
+
+			<div class = "project piazza centered">
+				<a href = "piazza.html">
+				<div class = "project-img">
+					<img src = "assets/img/piazza/preview.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					Piazza Redesign
+				</div>
+
+				<div class = "project-card-description">
+					Personal Project
+				</div>
+			</div>
+
+			<div class = "project piazza centered">
+				<a href = "bt.html">
+				<div class = "project-img">
+					<img src = "assets/img/bt/preview.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					BerkeleyTime Redesign
+				</div>
+
+				<div class = "project-card-description">
+					ASUC Office of the Chief Technology Officer
+				</div>
+			</div>
+
+			<div class = "project piazza centered">
+				<a href = "illos.html">
+				<div class = "project-img">
+					<img src = "assets/img/fun/bfast.png" />
+				</div>
+				</a>
+				<div class = "project-card-title">
+					Illustrations
+				</div>
+
+				<div class = "project-card-description">
+					Personal Project
+				</div>
+			</div>
+
+
+
 		</div>
 	</div>
 
-	<div class = "landing-container">
+	<!-- Footer -->
 
-		<!-- Adobe -->
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title"> Adobe </div>
-					<div class = "blurb">
-						Improving the Lightroom experience on desktop for new users.
-					</div>
-					<a href = "adobe.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/adobe.png">
-				</div>
-			</div>
+	<div class = "home-footer centered">
+		Life's better in-person&mdash; let's chat!
+		<div class = "project-card-description">
+			yeogyoungkwak@berkeley.edu
 		</div>
-
-		<!-- bCourses -->
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title"> bCourses Redesign </div>
-					<div class = "blurb">
-						A redesign challenge of Berkeley's course management system.
-					</div>
-					<a href = "bcourses.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/bcourses/preview.png">
-				</div>
-			</div>
-		</div>
-
-		<!-- Piazza -->
-		<div class="project">
-		  <div class="col">
-				<div class = "project-description">
-					<div class = "title"> Piazza Redesign </div>
-					<div class = "blurb">
-						A mobile redesign challenge of the classroom discussion forum.
-					</div>
-					<a href = "piazza.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-		  <div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/piazza/key.gif">
-				</div>
-			</div>
-		</div>
-
-		<!-- BI x Olark -->
-
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title">Olark x Berkeley Innovation</div>
-					<div class = "blurb">
-						Rethinking the  feedback system of a modern workplace.
-					</div>
-					<a href = "bi.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/bi/dashboard.png">
-				</div>
-			</div>
-		</div>
-
-		<!-- BerkeleyTime -->
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title"> BerkeleyTime</div>
-					<div class = "blurb">
-						Redesigning Cal's online course catalog.
-					</div>
-					<a href = "bt.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/bt/preview.png">
-				</div>
-			</div>
-		</div>
-
-
-
-		<!-- OCTO -->
-
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title">ASUC OCTO</div>
-					<div class = "blurb">
-						A revamping of the website for the ASUC Office of the
-						Chief Technology Officer.
-					</div>
-					<a href = "octo.html">
-					<div class = "link">
-							View Case Study
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/octo/logo.png">
-				</div>
-			</div>
-		</div>
-
-		<!-- Illustrations -->
-
-		<div class="project">
-			<div class="col">
-				<div class = "project-description">
-					<div class = "title">Illustrations</div>
-					<div class = "blurb">
-						A growing collection of graphic artwork.
-					</div>
-					<a href = "illos.html">
-					<div class = "link">
-							View Work
-					</div>
-					</a>
-				</div>
-
-			</div>
-			<div class="col">
-				<div class = "grid-img">
-					<img src = "assets/img/fun/extra.png">
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-	<div class = "page-footer">
-		<div id = "line"></div>
-			<div class = "boba">
-				Boba? Coffee?&#9749;
-			</div>
-			<div class = "footer-blurb">
-				Or whatever you prefer. Happy to chat about design, life, and [insert quirky hobby here]. Let&#39;s connect! &#128150;
-			</div>
-
-		<div class = "social-buttons" id = "centered">
+		<div class = "social-buttons centered">
 			<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fa fa-linkedin socials"></i></p></a>
-			<a href = "https://www.instagram.com/jemmakwak/"><p><i class="fa fa-instagram socials"></i></p></a>
 			<a href = "https://twitter.com/jemmakwak"><p><i class="fa fa-twitter socials"></i></p></a>
 			<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fa fa-spotify socials"></i></p></a>
 			<a href = "https://www.behance.net/jemmakwak"><p><i class="fa fa-behance socials"></i></p></a>
@@ -289,8 +189,6 @@
 
 
 	<script>
-
-
 		function openNav() {
 			$("#myNav").css("width", "100%");
 		    // document.getElementById("myNav").style.width = "100%";
@@ -302,7 +200,6 @@
 			$("body").removeClass("stop-scrolling");
 		    // document.getElementById("myNav").style.width = "0%";
 	}
-
 
 	</script>
 
