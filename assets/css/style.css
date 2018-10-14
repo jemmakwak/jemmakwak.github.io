@@ -612,16 +612,12 @@ iframe {
 }
 
 @media (max-width: 450px) {
+
   .project-grid {
     display: block;
     opacity: 1;
     width: 90%;
   }
-
-  .project {
-    opacity: 1;
-  }
-
   .right-column, .left-column {
     width: 100%;
   }
