@@ -99,7 +99,7 @@ header {
   font-size: 32px;
   line-height: 60px;
   text-align: center;
-  width: 640px;
+  width: 780px;
   margin: 80px auto;
   color: #3B3B3B;
   height: 60vh;
@@ -118,8 +118,9 @@ header {
 }
 
 .margin-top {
-  margin-top: 20vh;
+  margin-top: 180px;
 }
+
 .social-buttons a {
   font-size: 18px;
   margin: 0 2px;
@@ -156,6 +157,10 @@ header {
   color: #f14f4f;
 }
 
+#fb, #f {
+  color: #4267b2;
+}
+
 #wb {
   color: #EFEA34;
 }
@@ -168,6 +173,15 @@ header {
 
 #cal::after {
 -webkit-transition:width 0.2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+}
+
+#fb::before {
+  -webkit-transition: width 0.4s cubic-bezier(0.51, 0.18, 0, 0.88) 0.1s;
+  background: #4267b24f;
+}
+
+#fb::after {
+  -webkit-transition:width 0.2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
 }
 
 #adobe::before {
@@ -274,7 +288,7 @@ header {
   overflow: hidden;
   position: relative;
   width: 100%;
-
+  /* display:  none; */
 }
 
 .project-img:hover, .next-project:hover{
@@ -524,7 +538,7 @@ iframe {
   height: 84%;
 }
 
-#bi:hover, #wdd:hover, #bt:hover, #bc:hover, #innod:hover, #ea:hover, #aaa:hover, #a:hover {
+#bi:hover, #wdd:hover, #bt:hover, #bc:hover, #innod:hover, #ea:hover, #aaa:hover, #a:hover, #f:hover {
   text-decoration: underline;
 }
 
@@ -567,7 +581,7 @@ iframe {
   }
 
   .intro {
-    /*width: 95%;*/
+    width: 95%;
     font-size: 24px;
     line-height: 48px;
   }
@@ -612,6 +626,9 @@ iframe {
 }
 
 @media (max-width: 450px) {
+  .margin-top {
+    margin-top: 80px;
+  }
 
   .project-grid {
     display: block;

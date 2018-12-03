@@ -86,6 +86,6 @@ $(document).ready(function() {
     var $aboutme = $('.about-me');
     $aboutme.waypoint(function() {
       $aboutme.addClass('fadeIn-delay');
-    }, {offset: '50%'});
+    }, {offset: '100%'});
 
 });
