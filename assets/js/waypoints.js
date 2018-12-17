@@ -55,7 +55,7 @@ $(document).ready(function() {
         this.destroy();
       }
     }, {
-        offset: '60%'
+        offset: '100%'
     });
 
     var $intro = $('.intro');
