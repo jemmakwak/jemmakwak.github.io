@@ -615,7 +615,7 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  .intro, .mid-screen, .full-screen, .profile, .about-me{
+  .intro, .mid-screen, .full-screen, .about-me{
     width: 90%;
   }
 
@@ -625,6 +625,10 @@ iframe {
 
   .project-container {
     margin: 0 auto;
+  }
+
+  .profile {
+    width: 95%;
   }
 
 }
