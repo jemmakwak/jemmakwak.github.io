@@ -122,14 +122,14 @@ header {
 }
 
 .social-buttons a {
-  font-size: 18px;
+  font-size: 24px;
   margin: 0 2px;
   color: #3B3B3B;
   transition: .3s;
 }
 
 .social-buttons a:hover {
-  opacity: .8;
+  opacity: .5;
 }
 
 .intro-a:hover::after, .intro-a:hover::before {
@@ -378,12 +378,16 @@ header {
 
 .profile {
   /*border: solid;*/
-  width: 600px;
+  width: 240px;
 }
 
 .profile-pic {
   width: 100%;
 }
+/*
+#no-space {
+  padding: 0;
+}*/
 
 .header {
   font-size: 20px;
