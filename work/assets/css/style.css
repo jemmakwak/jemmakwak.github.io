@@ -553,7 +553,7 @@ iframe {
   height: 84%;
 }
 
-#bi:hover, #wdd:hover, #bt:hover, #bc:hover, #innod:hover, #ea:hover, #aaa:hover, #a:hover, #f:hover {
+#bi:hover, #wdd:hover, #bt:hover, #bc:hover, #innod:hover, #ea:hover, #aaa:hover, #a:hover, #f:hover, #bp:hover {
   text-decoration: underline;
 }
 
@@ -575,6 +575,10 @@ iframe {
 
 #bc {
   color: #d9e01a;
+}
+
+#bp {
+  color: #187be5;
 }
 
 #innod {
