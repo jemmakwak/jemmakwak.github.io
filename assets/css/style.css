@@ -1,29 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
+
+@font-face {
+  font-family: SF-Pro;
+  /*src: url("circular/CircularStd-Book.otf") format("opentype");*/
+  src: url("sf/SF-Pro.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: SF-Pro-Bold;
+  /*src: url("circular/CircularStd-Book.otf") format("opentype");*/
+  src: url("sf/SF-Pro-Bold.otf") format("opentype");
+}
+
+
+body {
+  background: #2F297B;
+}
+
 .centered {
   margin: 0 auto;
 }
 
+.tagline {
+  font-family: 'SF-Pro-Bold', sans-serif;
+  font-size: 36px;
+}
+
 .intro {
-  width: 520px;
-  font-family: 'Space Mono', monospace;
+  width: 580px;
+  font-family: 'SF-Pro', sans-serif;
   position: relative;
   transform: translateY(-80%);
   top: 50%;
   line-height: 2em;
-  color: #CBCBCB;
-}
-
-.fb {
-  color: #3b5998c9;
-}
-
-.a {
-  color: #ff00009c;
+  color: #ffffff;
+  margin-left: 10%;
+  margin-top: 120px;
+  font-size: 16px;
+  line-height: 2.2em;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  color: white;
+  transition: .4s;
+}
+
+a:hover {
+  opacity: .4;
 }
 
 .new {
@@ -40,4 +65,12 @@ a {
 
 .social-buttons a:hover {
   color: #bbbbbb;
+}
+
+@media (max-width: 450px) {
+  .intro {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
 }
