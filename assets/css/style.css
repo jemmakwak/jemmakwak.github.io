@@ -68,3 +68,26 @@ a:hover {
     margin: 48px auto;
   }
 }
+
+@keyframes go-up {
+    0% {
+        transform: translateY(4%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.fadeIn-delay {
+  animation: go-up .5s cubic-bezier(.42, 0, .58, 1);
+}
+
+.fadeIn-slower {
+
+  animation: go-up .5s cubic-bezier(.42, 0, .58, 1);
+  /*opacity: 0;*/
+
+}
