@@ -1,0 +1,442 @@
+<html>
+
+<!-- Hey you! Thanks for stopping by. Everything you see here was coded by me personally. None of this is built on wordpress, wix, webflow, squarespace, etc.
+
+Hopefully you're just browsing around for fun, but I want to let you know that my work has been plagiarized... quite a bit recently. It makes me super sad and I hope those are not your intentions, but if you're here to copy code, please think twice about it. Is it really worth it to take someone's hard work and online brand to try to get a leg up? Thanks for reading, and I hope you understand the implications of your actions on others.
+
+Designed and developed by Jemma Kwak :-)  -->
+
+<head>
+	<title>bCourses</title>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-98200050-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-98200050-2');
+	</script>
+	<link rel="icon" href="assets/img/girl.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="assets/js/waypoints.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<div id = "hi"></div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<div id = "top">
+			&#9757;
+		</div>
+	</button>
+
+	<header>
+		<a href = "index.html" class = "logo">
+			<img style ="width:32px" src = "assets/img/me.png" />
+		</a>
+
+		<nav>
+			<span class = "about">
+				<a href = "assets/resume.pdf">Resume</a>
+			</span>
+
+			<span class = "about">
+				<a href = "about.html">About</a>
+			</span>
+		</nav>
+
+		<span class = "about">
+			<a href = "now.html">Now</a>
+		</span>
+	</header>
+
+
+
+		<div class = "behind">
+			<img class = "background-img"src = "assets/img/bcourses/preview.png" />
+		</div>
+
+
+
+	<div class = "project-container">
+		<div class = "project-intro">
+			<div class = "project-title bold centered">
+				bCourses Redesign
+			</div>
+
+			<div class = "project-description medium centered">
+				A new look at Berkeley’s course management system.
+			</div>
+		</div>
+	</div>
+
+	<div class = "marvel">
+			<iframe "transform: scale(0.5)" width="100%" height="84%" src="https://xd.adobe.com/embed/59fa80be-d337-422b-4227-0e829adb909d-2fcb/?fullscreen" frameborder="0" allowfullscreen></iframe>
+			<div class = "caption">
+				Click anywhere to interact with this prototype!
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				Introduction
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					bCourses is a web and mobile application used as a platform to connect students and instructors.
+				</div>
+				Students use bCourses to view and submit homework assignments, connect
+				with peers and faculty, and see their grades.
+			</div>
+		</div>
+
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 001
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					The Problem
+				</div>
+				Despite most courses at UC Berkeley being hosted on bCourses,
+				the current interface is painful to use. The app leaves users feeling confused and frustrated,
+				 namely in its <span class = "bold">most crucial interactions.</span>
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bcourses/old/landing.png"></div>
+			<div class = "caption">
+				Lack of pertinent information regarding assignment submission.
+			</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bcourses/old/files-gif.gif"></div>
+			<div class = "caption">
+				Unintuitive, tedious file search.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 002
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					User Research
+				</div>
+				A survey of 20 students currently attending UC Berkeley showed that students weren't using bCourses
+				 beyond the functionalities that enabled students to succeed in their classes(submitting assignments,
+				 viewing readings), When diving into the pain points of the students, we discovered some key insights:
+
+				 <div class = "bold">
+					Idle Features
+				 </div>
+				 Users noted they tended to not use features such as calendar and inbox,
+				 stating they already had established methods and mediums for carrying out this functionality.
+				 <div class = "bold">
+					Lack of Clarity
+				 </div>
+				 Students noted the lack of clarity across the main features of bCourses—
+				 this included file search, course distinction, and assignment submissions.
+				 <div class = "bold">
+					 Building Community
+				 </div>
+				 Lots of students noted that they did not use the Groups feature,
+				 but wanted a better way to use the platform to connect with students and faculty in the class.
+				 <div class = "bold">
+					Aesthetics and Feel
+				 </div>
+				 Many students noted that bCourses’ UI felt clunky and out-of-date. A major part of the redesign was to align the user interface up to speed with more modern design trends.
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src="assets/img/bcourses/graphs.png"></div>
+			<div class = "caption">
+				Survey results of student use cases.
+			</div>
+	</div>
+
+	<div class = "bold centered full-screen quote">
+		<div class = "quote centered">
+				How might we streamline crucial interactions that aid student success?
+		</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 003
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Design Goals
+				</div>
+					<div class = "bold">Streamline</div>
+					Increase ease of access and flow of files, assignments, grades, and submission.
+					<div class = "bold">Centralize</div>
+					Concentrate pertinent interactions and student priorities into a singular dashboard.
+					<div class = "bold">Update</div>
+					Bring site aesthetics up to speed with current visual trends and patterns.
+			</div>
+		</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line"></div> 004
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					The Solution
+				</div>
+					I narrowed my focus on improving the existing systems that students felt were mandatory for
+					succeeding in their classes(viewing instructor-uploaded content, submitting assigments, and checking grades).
+					These interactions were noted as the most difficult to navigate.
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bcourses/mid/dash.png"></div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header">
+					Design Decisions
+				</div>
+					<div class = "bold">Assignments</div>
+					A centralized location for the most recently assigned work
+					<div class = "bold">Courses</div>
+					Easy access and viewing for each course a student is enrolled in.
+					<div class = "bold">Updates</div>
+					 The most recent announcements in a centralized location.
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bcourses/mid/files.png"></div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+
+			</div>
+
+			<div class = "work-col">
+					<div class = "bold">Visible Search</div>
+					File search that appears immediately to the user, as opposed to hidden within the layers of folders.
+					<div class = "bold">Folders and Files</div>
+					Folders and files in an more intuitive, GUI, much like Google Drive’s organization.
+			</div>
+		</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+					<div class = "line"></div> 005
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header"> User Flows
+				</div>
+					I redesigned much of the information architecture to reflect what students were interested in knowing about their classes.
+					I specifically looked at the home screen (Dashboard) and class pages.
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src = "assets/img/bcourses/flow2.png"></div>
+			<div class = "caption">
+				User flow for the home screen.
+			</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src="assets/img/bcourses/flow.png"></div>
+			<div class = "caption">
+				User flow for the course page.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+					<div class = "line"></div> 006
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header"> Mid Fidelity Mockups
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "full-screen centered">
+			<div>	<img src="assets/img/bcourses/mid/mid.png"></div>
+			<div class = "caption">
+				Mid Fidelity Mockups
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+					<div class = "line"></div> 007
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header"> High Fidelity + Prototypes
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "full-screen centered">
+			<div>	<img src="assets/img/bcourses/style.png"></div>
+			<div class = "caption">
+				Style Guide
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header"> Interactions
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src="assets/img/bcourses/all.gif"></div>
+			<div class = "caption">
+				A brief glimpse into all screens.
+			</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src="assets/img/bcourses/submit.gif"></div>
+			<div class = "caption">
+				Submission made simple.
+			</div>
+	</div>
+
+	<div class = "mid-screen centered">
+			<div>	<img src="assets/img/bcourses/files.gif"></div>
+			<div class = "caption">
+				Fresh file delivery.
+			</div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+			</div>
+
+			<div class = "work-col">
+				<div class = "bold header"> Final Mocks
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "full-screen centered">
+			<div>	<img src="assets/img/bcourses/final.png"></div>
+	</div>
+
+	<div class = "project-container">
+		<div class = "work-section">
+			<div class = "work-col">
+				<div class = "line">
+			</div>
+			008
+		</div>
+			<div class = "work-col">
+				<div class = "bold header"> Next Steps
+				</div>
+
+				In the future iterations of this redesign, I would want to explore internal version of taking quizzes and add more complex functionality to the file viewing system. I felt that the UI fixes went hand in hand with the usability issues themselves, as clarifying the UI allowed for the experience to be clarified in return. Despite this, I would continue to improve the flow of the more minute interactions to not only make it usable, but as delightful of an experience as possible.
+				<br><br>
+				I thoroughly enjoyed learning about the ways students interact with the software designed to help them succeed in school. I learned about the minute, individualized frustrations Berkeley students had with the application and the wider, more general issues students had.
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class = "home-footer centered">
+		Life's better in-person&mdash; let's chat!
+		<div class = "project-card-description">
+			yeogyoungkwak@berkeley.edu
+		</div>
+		<div class = "social-buttons centered">
+			<a href = "https://www.linkedin.com/in/jemma-kwak/"><p><i class="fab fa-linkedin-in socials"></i></p></a>
+			<a href = "https://twitter.com/jemmakwak"><p><i class="fab fa-twitter socials"></i></p></a>
+			<a href = "https://www.goodreads.com/user/show/48253851-jemma-kwak"><p><i class="fab fa-goodreads socials"></i></p></a>
+			<a href = "https://calendly.com/jemmakwak"><p><i class="fas fa-coffee socials"></i></p></a>
+			<a href = "https://open.spotify.com/user/1245236588?si=yIfZsA5ZQh2or5hv7_j-2A"><p><i class="fab fa-spotify socials"></i></p></a>
+		</div>
+	</div>
+
+	<script>
+
+	window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+				document.getElementById("myBtn").style.opacity = "1";
+		} else {
+				document.getElementById("myBtn").style.opacity = "0";
+		}
+	}
+	function topFunction() {
+
+		var target = $('#hi');
+		if (target.length) {
+				var top = target.offset().top;
+				$('html,body').animate({scrollTop: top}, 500);
+				return false;
+		}
+}
+
+	</script>
+
+
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/waypoints.js"></script>
+</body>
+
+</html>
